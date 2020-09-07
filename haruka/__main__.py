@@ -20,26 +20,20 @@ from haruka.modules.helper_funcs.misc import paginate_modules
 from haruka.modules.translations.strings import tld, tld_help 
 from haruka.modules.connection import connected
 
-PM_START = """Hello {}, my name is {}!
+PM_START = """Hi {}, my name is {}! 
+I am a super powerful group management bot with some fun extras [;)](https://telegra.ph/file/0ff2ae2f348bf22902cd0.jpg)
 
-You know how hard it is sometimes to manage group so here is the solution for you
+You can find the list of available commands with /help.
 
-I'm group manager bot and Anti-spam for RR Players🃏
+Developed by [InukaASiTH](htps://t.me/InukaASiTH)
 
-Activate Anti-spam protection in your BM by this command : 
-/antispam on 
+[JASON ENT®](t.me/InfinityJE)
 
-Made from the source code of [Aditya 🇮🇳](t.me/xditya)
+Special thanks to [ImJanindu](t.me/ImJanindu) and [NavodPRO](t.me/NavodPRO)
 
-Special thanks to [this person](t.me/denver02) for helping me.
+The support group chat is at @InfinityJE
 
-Deploy a bot like me [now](www.github.com/xditya/GroupManager)
-
-Watch [video tutorial](https://www.youtube.com/watch?v=gXXFpTAk6Vo&feature=youtu.be) on deploying me.
-
-Click /help or Help button below to find out more about how to use me to my full potential.
-
- Add me to a group by clicking [here](http://t.me/tg_GroupManagerBot?startgroup=true).
+©2020 by [JASON ENT®](t.me/InfinityJE). All Rights Reserved.
 """
 
 
