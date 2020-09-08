@@ -17,9 +17,15 @@ def locale(bot, update, args):
     if len(args) > 0:
         locale = args[0].lower()
         if locale in list_locales:
-            if locale in ('en', 'ru', 'ua', 'es', 'tr', 'si'):
-                switch_to_locale(chat.id, locale)
-                update.message.reply_text(tld(chat.id, 'Switched to {} successfully!').format(list_locales[locale]))
+            
+                
+            if locale in ('en', 'ru', 'ua', 'es', 'tr', 'id','si'):
+                if locale == ('si'):
+                    switch_to_locale(chat.id, 'id')
+                    update.message.reply_text(tld(chat.id, 'Switched to Sinhala successfully!'))
+                else:
+                    switch_to_locale(chat.id, locale)
+                    update.message.reply_text(tld(chat.id, 'Switched to {} successfully!').format(list_locales[locale]))
             else:
                 update.message.reply_text("{} is not supported yet!".format(list_locales[locale]))
         else:
@@ -38,7 +44,8 @@ def locale_button(bot, update):
     chat = update.effective_chat
     user = update.effective_user  # type: Optional[User]
     query = update.callback_query
-    lang_match = re.findall(r"en|ru|ua|es|tr|si", query.data)
+    lang_match = re.findall(r"en|ru|ua|es|tr|id|", query.data)
+    
     if lang_match:
         if lang_match[0]:
             switch_to_locale(chat.id, lang_match[0])
@@ -52,9 +59,13 @@ def locale_button(bot, update):
         curr_lang = list_locales[locale]
     except:
         curr_lang = "English"
-
-    text = "*Select language* \n"
-    text += "User language : `{}`".format(curr_lang)
+    if curr_lang == "Indonesian":
+        text = "*Select language* \n"
+        text += "User language : `Sinhala`"
+    else:
+    
+        text = "*Select language* \n"
+        text += "User language : `{}`".format(curr_lang)
 
     conn = connected(bot, update, chat, user.id, need_admin=False)
 
@@ -62,7 +73,10 @@ def locale_button(bot, update):
         try:
             chatlng = prev_locale(conn).locale_name
             chatlng = list_locales[chatlng]
-            text += "\nConnected chat language : `{}`".format(chatlng)
+            if chatlng == "Indonesian":
+                text += "\nConnected chat language : `Sinhala`"
+            else:
+                text += "\nConnected chat language : `{}`".format(chatlng)
         except:
             chatlng = "English"
 
@@ -75,7 +89,7 @@ def locale_button(bot, update):
                                             InlineKeyboardButton("Ukrainian 🇺🇦", callback_data="set_lang_ua")]] + [[
                                             InlineKeyboardButton("Spanish 🇪🇸", callback_data="set_lang_es"),
                                             InlineKeyboardButton("Turkish 🇹🇷", callback_data="set_lang_tr")]] + [[
-                                            InlineKeyboardButton("Sinhala 🇱🇰", callback_data="set_lang_si")]] + [[
+                                            InlineKeyboardButton("Sinhala 🇱🇰", callback_data="set_lang_id")]] + [[
                                             InlineKeyboardButton("⬅️ Back", callback_data="bot_start")]]))
 
     print(lang_match)
