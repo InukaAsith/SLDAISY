@@ -35,7 +35,11 @@ def locale(bot, update, args):
         if LANGUAGE:
             locale = LANGUAGE.locale_name
             native_lang = list_locales[locale]
-            update.message.reply_text("Current locale for this chat is: *{}*".format(native_lang), parse_mode = ParseMode.MARKDOWN)
+            if locale == 'id':
+                update.message.reply_text("Current locale for this chat is: Sinhala")
+            else :
+                
+                update.message.reply_text("Current locale for this chat is: *{}*".format(native_lang), parse_mode = ParseMode.MARKDOWN)
         else:
             update.message.reply_text("Current locale for this chat is: *English*", parse_mode=ParseMode.MARKDOWN)
 
@@ -44,7 +48,7 @@ def locale_button(bot, update):
     chat = update.effective_chat
     user = update.effective_user  # type: Optional[User]
     query = update.callback_query
-    lang_match = re.findall(r"en|ru|ua|es|tr|id|", query.data)
+    lang_match = re.findall(r"en|ru|ua|es|tr|id", query.data)
     
     if lang_match:
         if lang_match[0]:
