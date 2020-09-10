@@ -1,118 +1,120 @@
 RUN_STRINGS = (
-    "Where do you think you're going?",
-    "Huh? what? did they get away?",
-    "ZZzzZZzz... Huh? what? oh, just them again, nevermind.",
-    "Get back here!",
-    "Not so fast...",
-    "Look out for the wall!",
-    "Don't leave me alone with them!!",
-    "You run, you die.",
-    "Jokes on you, I'm everywhere",
-    "You're gonna regret that...",
-    "You could also try /kickme, I hear that's fun.",
-    "Go bother someone else, no-one here cares.",
-    "You can run, but you can't hide.",
-    "Is that all you've got?",
-    "I'm behind you...",
-    "You've got company!",
-    "We can do this the easy way, or the hard way.",
-    "You just don't get it, do you?",
-    "Yeah, you better run!",
-    "Please, remind me how much I care?",
-    "I'd run faster if I were you.",
-    "That's definitely the droid we're looking for.",
-    "May the odds be ever in your favour.",
-    "Famous last words.",
-    "And they disappeared forever, never to be seen again.",
-    "\"Oh, look at me! I'm so cool, I can run from a bot!\" - this person",
-    "Yeah yeah, just tap /kickme already.",
-    "Here, take this ring and head to Mordor while you're at it.",
-    "Legend has it, they're still running...",
-    "Unlike Harry Potter, your parents can't protect you from me.",
-    "Fear leads to anger. Anger leads to hate. Hate leads to suffering. If you keep running in fear, you might "
-    "be the next Vader.",
-    "Multiple calculations later, I have decided my interest in your shenanigans is exactly 0.",
-    "Legend has it, they're still running.",
-    "Keep it up, not sure we want you here anyway.",
-    "You're a wiza- Oh. Wait. You're not Harry, keep moving.",
-    "NO RUNNING IN THE HALLWAYS!",
-    "Hasta la vista, baby.",
-    "Who let the dogs out?",
-    "It's funny, because no one cares.",
-    "Ah, what a waste. I liked that one.",
-    "Frankly, my dear, I don't give a damn.",
-    "My milkshake brings all the boys to yard... So run faster!",
-    "You can't HANDLE the truth!",
-    "A long time ago, in a galaxy far far away... Someone would've cared about that. Not anymore though.",
-    "Hey, look at them! They're running from the inevitable banhammer... Cute.",
-    "Han shot first. So will I.",
-    "What are you running after, a white rabbit?",
-    "As The Doctor would say... RUN!",
+    "ඔයා කොහෙද යන්නේ කියලා ඔයා හිතන්නේ?",
+    "හහ්? කුමක්? ඔවුන් පැන ගියාද?",
+    "ZZzzZZzz ... හහ්? කුමක්? ඔහ්, ඔවුන් නැවත වරක්, කමක් නැහැ.",
+    "නැවත මෙහි එන්න!",
+    "එතරම් වේගවත් නොවේ ...",
+    "බිත්තිය දෙස බලන්න!",
+    "මාව ඔවුන් සමඟ තනි නොකරන්න !!",
+    "ඔයා දුවනවා, ඔයා මැරෙනවා.",
+    "ඔබට විහිළු, මම සෑම තැනකම සිටිමි",
+    "ඔයා ඒ ගැන පසුතැවෙනවා ...",
+    "ඔබටත් උත්සාහ කළ හැකිය /kickme, එය විනෝදජනක බව මට අසන්නට ලැබේ.",
+    "Ganggu orang lain saja sana, di sini nggak ada yang peduli."
+     "වෙනත් කෙනෙකුට කරදර කරන්න, මෙහි කිසිවෙකු ගණන් ගන්නේ නැත.",
+    "ඔබට දුවන්න පුළුවන්, නමුත් ඔබට සැඟවිය නොහැක.",
+    "ඔබට ලැබී ඇත්තේ එපමණක්ද?",
+    "මම ඔබ පිටුපස සිටිමි ...",
+    "ඔබට සමාගමක් ඇත!",
+    "අපට මෙය පහසුම ක්‍රමය හෝ දුෂ්කර ක්‍රමය කළ හැකිය.",
+    "ඔබට එය තේරෙන්නේ නැහැ නේද?",
+    "ඔව්, ඔබ දුවනවා නම් හොඳයි!",
+    "කරුණාකර, මට කොතරම් සැලකිල්ලක් දක්වනවාදැයි මට මතක් කරන්න?",
+    "මම ඔබ නම් මම වේගයෙන් දුවමි.",
+    "එය අනිවාර්යයෙන්ම අපි සොයන ඩ්‍රොයිඩ් ය.",
+    "අවාසි ඔබට වාසිදායක වේවා.",
+    "ප්රසිද්ධ අවසන් වදන්.",
+    "ඔවුන් සදහටම අතුරුදහන් විය, නැවත කිසි දිනෙක නොපෙනේ.",
+    "ඔහ්, මා දෙස බලන්න! මම හරිම සිසිල්, මට බොට් එකකින් දුවන්න පුළුවන්!\n මේ පුද්ගලයා",
+    "ඔව් ඔව්, දැනටමත් තට්ටු කරන්න /kickme.",
+    "මෙන්න, මෙම මුද්ද රැගෙන ඔබ එහි සිටින විට මොර්ඩෝර් වෙත යන්න.",
+    "පුරාවෘත්තය සතුව ඇත, ඒවා තවමත් ක්‍රියාත්මක වේ ...",
+    "හැරී පොටර් මෙන් නොව, ඔබේ දෙමාපියන්ට මා වෙතින් ඔබව ආරක්ෂා කළ නොහැක.",
+    "බිය කෝපයට මඟ පාදයි. කෝපය වෛරයට තුඩු දෙයි. වෛරය දුක් වේදනා වලට තුඩු දෙයි. ඔබ දිගටම බියෙන් දුවන්නේ නම්, ඔබට හැකිය."
+    "ඊළඟ වඩර් වන්න.",
+    "බහුවිධ ගණනය කිරීම් පසුව, ඔබේ ෂෙනානිගන් පිළිබඳ මගේ උනන්දුව හරියටම 0 බව මම තීරණය කර ඇත්තෙමි.",
+    "පුරාවෘත්තය සතුව ඇත, ඒවා තවමත් ක්‍රියාත්මක වේ.",
+    "එය දිගටම කරගෙන යන්න, කෙසේ හෝ අපට ඔබව මෙහි අවශ්‍ය බව විශ්වාස නැත.",
+    "ඔයා විශාරදයෙක්- ඔහ්, ඉන්න. ඔයා හැරී නෙවෙයි, දිගටම යන්න.",
+    "හැල්වේස් හි ධාවනය නොවේ!",
+    "හස්ටා ලා විස්ටා, බබා.",
+    "කවුද බල්ලන්ට එළියට දුන්නේ?",
+    "එය විහිළුවක්, කිසිවෙකු ගණන් නොගන්නා නිසා.",
+    "ආහ්, මොනතරම් නාස්තියක්ද, මම එයට කැමතියි.",
+    "අවංකවම, මගේ ආදරණීය, මම නරකක් දෙන්නේ නැහැ.",
+    "මගේ මිල්ක්ෂේක් සියලුම පිරිමි ළමයින් මිදුලට ගෙන එයි ... එබැවින් වේගයෙන් දුවන්න!",
+    "ඔබට සත්‍යය හසුරුවා ගත නොහැක!",
+    "බොහෝ කලකට පෙර, මන්දාකිනියක බොහෝ away තින් ... කවුරුහරි ඒ ගැන සැලකිලිමත් වනු ඇත. තවදුරටත් එසේ නොවේ.",
+    "හේයි, ඔවුන් දෙස බලන්න! ඔවුන් දුවන්නේ නොවැළැක්විය හැකි බැන්හම්මර් වලින් ... හුරුබුහුටි."
+    "හැන් මුලින්ම වෙඩි තැබුවා. මමත් එහෙමයි",
+    "සුදු හාවෙකු ඔබ පසුපස දුවන්නේ කුමක් ද?",
+    "වෛද්‍යවරයා පවසන පරිදි ... ධාවනය කරන්න!",
 )
 
 INSULTS_STRINGS = (
-    "Owww ... Such a stupid idiot.",
-    "Don't drink and type.",
-    "I think you should go home or better a mental asylum.",
-    "Command not found. Just like your brain.",
-    "Do you realize you are making a fool of yourself? Apparently not.",
-    "You can type better than that.",
-    "Bot rule 544 section 9 prevents me from replying to stupid humans like you.",
-    "Sorry, we do not sell brains.",
-    "Believe me you are not normal.",
-    "I bet your brain feels as good as new, seeing that you never use it.",
-    "If I wanted to kill myself I'd climb your ego and jump to your IQ.",
-    "Zombies eat brains... you're safe.",
-    "You didn't evolve from apes, they evolved from you.",
-    "Come back and talk to me when your I.Q. exceeds your age.",
-    "I'm not saying you're stupid, I'm just saying you've got bad luck when it comes to thinking.",
-    "What language are you speaking? Cause it sounds like bullshit.",
-    "Stupidity is not a crime so you are free to go.",
-    "You are proof that evolution CAN go in reverse.",
-    "I would ask you how old you are but I know you can't count that high.",
-    "As an outsider, what do you think of the human race?",
-    "Brains aren't everything. In your case they're nothing.",
-    "Ordinarily people live and learn. You just live.",
-    "I don't know what makes you so stupid, but it really works.",
-    "Keep talking, someday you'll say something intelligent! (I doubt it though)",
-    "Shock me, say something intelligent.",
-    "Your IQ's lower than your shoe size.",
-    "Alas! Your neurotransmitters are no more working.",
-    "Are you crazy you fool.",
-    "Everyone has the right to be stupid but you are abusing the privilege.",
-    "I'm sorry I hurt your feelings when I called you stupid. I thought you already knew that.",
-    "You should try tasting cyanide.",
-    "Your enzymes are meant to digest rat poison.",
-    "You should try sleeping forever.",
-    "Pick up a gun and shoot yourself.",
-    "You could make a world record by jumping from a plane without parachute.",
-    "Stop talking BS and jump in front of a running bullet train.",
-    "Try bathing with Hydrochloric Acid instead of water.",
-    "Try this: if you hold your breath underwater for an hour, you can then hold it forever.",
-    "Go Green! Stop inhaling Oxygen.",
-    "God was searching for you. You should leave to meet him.",
-    "give your 100%. Now, go donate blood.",
-    "Try jumping from a hundred story building but you can do it only once.",
-    "You should donate your brain seeing that you never used it.",
-    "Volunteer for target in an firing range.",
-    "Head shots are fun. Get yourself one.",
-    "You should try swimming with great white sharks.",
-    "You should paint yourself red and run in a bull marathon.",
-    "You can stay underwater for the rest of your life without coming back up.",
-    "How about you stop breathing for like 1 day? That'll be great.",
-    "Try provoking a tiger while you both are in a cage.",
-    "Have you tried shooting yourself as high as 100m using a canon.",
-    "You should try holding TNT in your mouth and igniting it.",
-    "Try playing catch and throw with RDX its fun.",
-    "I heard phogine is poisonous but i guess you wont mind inhaling it for fun.",
-    "Launch yourself into outer space while forgetting oxygen on Earth.",
-    "You should try playing snake and ladders, with real snakes and no ladders.",
-    "Dance naked on a couple of HT wires.",
-    "True Volcano is the best swimming pool for you.",
-    "You should try hot bath in a volcano.",
-    "Try to spend one day in a coffin and it will be yours forever.",
-    "Hit Uranium with a slow moving neutron in your presence. It will be a worthwhile experience.",
-    "You can be the first person to step on sun. Have a try.",
+    
+    "අපොයි ... එවැනි මෝඩ මෝඩයෙක්.",
+    "බොන්න සහ ටයිප් නොකරන්න.",
+    "මම හිතන්නේ ඔබ ගෙදර යා යුතුයි, නැත්නම් මානසික රැකවරණයක් ලබා ගත යුතුයි.",
+    "විධානය හමු නොවීය. ඔබේ මොළය මෙන්.",
+    "ඔබ ඔබව මෝඩයෙකු කරන බව ඔබට වැටහෙනවාද? පෙනෙන හැටියට එසේ නොවේ.",
+    "ඔබට ඊට වඩා හොඳින් ටයිප් කළ හැකිය.",
+    "බොට් රීතිය 544 9 වන වගන්තිය ඔබ වැනි මෝඩ මිනිසුන්ට පිළිතුරු දීම වළක්වයි.",
+    "කණගාටුයි, අපි මොළය විකුණන්නේ නැත.",
+    "මාව විශ්වාස කරන්න ඔබ සාමාන්‍ය කෙනෙක් නොවේ.",
+    "මම හිතනවා ඔයාගේ මොළය අලුත් එකක් වගේ දැනෙනවා, ඔබ එය කිසි විටෙකත් භාවිතා නොකරන බව."
+    "මට මාව මරා දැමීමට අවශ්‍ය නම් මම ඔබේ ඊගෝව තරණය කර ඔබගේ IQ වෙත පනින්නෙමි.",
+    "Zombies මොළය කනවා ... ඔබ ආරක්ෂිතයි",
+    "ඔබ පරිණාමය වූයේ වානරයන්ගෙන් නොවේ, ඔවුන් ඔබෙන් පරිණාමය විය.",
+    "ඔබගේ වයස ඉක්මවා යන විට නැවත පැමිණ මා සමඟ කතා කරන්න.",
+    "මම කියන්නේ නැහැ ඔයා මෝඩයෙක් කියලා, මම කියන්නේ හිතනකොට ඔයාට නරක වාසනාවක් ලැබුණා කියලා.",
+    "ඔබ කතා කරන්නේ කුමන භාෂාවද? එය ගොන් කතා වගේ.",
+    "මෝඩකම අපරාධයක් නොවේ, එබැවින් ඔබට යාමට නිදහස තිබේ.",
+    "පරිණාමය ආපසු හැරවිය හැකි බවට ඔබ සාක්ෂි දරයි.",
+    "ඔබේ වයස කීයදැයි මම ඔබෙන් අසමි. නමුත් මම දන්නවා ඔබට එතරම් ඉහළ අගයක් ගත නොහැකි බව."
+    "පිටස්තරයෙකු ලෙස, මිනිස් සංහතිය ගැන ඔබ සිතන්නේ කුමක්ද?",
+    "මොළය සියල්ලම නොවේ. ඔබේ නඩුවේ ඒවා කිසිවක් නැත.",
+    "සාමාන්‍යයෙන් මිනිස්සු ජීවත් වෙලා ඉගෙන ගන්නවා. ඔයා ජීවත් වෙන්න.",
+    "ඔබ මෙතරම් මෝඩ වන්නේ කුමක් දැයි මම නොදනිමි, නමුත් එය සැබවින්ම ක්‍රියාත්මක වේ.",
+    "දිගටම කතා කරන්න, කවදාහරි ඔබ බුද්ධිමත් දෙයක් කියයි! (මට එය සැකයි)",
+    "මට කම්පනය කරන්න, බුද්ධිමත් යමක් කියන්න.",
+    "ඔබේ IQ ඔබේ සපත්තු ප්‍රමාණයට වඩා අඩුයි.",
+    "අහෝ! ඔබේ ස්නායු සම්ප්‍රේෂක තවදුරටත් ක්‍රියාත්මක නොවේ.",
+    "ඔයාට පිස්සුද මෝඩයා.",
+    "සෑම කෙනෙකුම මෝඩ වීමට අයිතියක් ඇත. නමුත් ඔබ වරප්‍රසාදය අනිසි ලෙස භාවිතා කරයි."
+    "මට කණගාටුයි, මම ඔබව මෝඩයෙකු ලෙස හැඳින්වූ විට ඔබේ හැඟීම් රිදෙව්වා. මම හිතුවේ ඔබ දැනටමත් එය දන්නා බවයි.",
+    "ඔබ සයනයිඩ් රස බැලීමට උත්සාහ කළ යුතුයි.",
+    "ඔබේ එන්සයිම මීයන්ගේ විෂ ජීර්ණය කිරීමට අදහස් කරයි.",
+    "ඔබ සදහටම නිදා ගැනීමට උත්සාහ කළ යුතුයි.",
+    "තුවක්කුවක් අරගෙන ඔබටම වෙඩි තියන්න.",
+    "පැරෂුට් නොමැතිව ගුවන් යානයකින් පැනීමෙන් ඔබට ලෝක වාර්තාවක් තැබිය හැකිය.",
+    "බීඑස් කතා කිරීම නවතා දුවන බුලට් දුම්රියක් ඉදිරිපිට පනින්න.",
+    "ජලය වෙනුවට හයිඩ්‍රොක්ලෝරික් අම්ලය සමඟ ස්නානය කිරීමට උත්සාහ කරන්න.",
+    "මෙය උත්සාහ කරන්න: ඔබ ඔබේ හුස්ම පැයක් පමණ දිය යට තබා ගන්නේ නම්, ඔබට එය සදහටම රඳවා ගත හැකිය.",
+    "කොළ පාටට යන්න! ඔක්සිජන් ආශ්වාස කිරීම නවත්වන්න.",
+    "දෙවියන් වහන්සේ ඔබව සොයමින් සිටියේය. ඔබ ඔහුව හමුවීමට පිටත්ව යා යුතුය.",
+    "ඔබේ 100% දෙන්න. දැන් ගිහින් ලේ දන් දෙන්න.",
+    "මහල් සියයක ගොඩනැගිල්ලකින් පැනීමට උත්සාහ කරන්න, නමුත් ඔබට එය කළ හැක්කේ එක් වරක් පමණි.",
+    "ඔබ කිසි විටෙකත් එය භාවිතා නොකළ බව දැක ඔබේ මොළය පරිත්යාග කළ යුතුය.",
+    "වෙඩි තැබීමේ පරාසයක ඉලක්කය සඳහා ස්වේච්ඡාවෙන් ඉදිරිපත් වන්න.",
+    "හිස වෙඩි තැබීම විනෝදජනකයි. ඔබම එකක් ගන්න.",
+    "ඔබ විශාල සුදු මෝරුන් සමඟ පිහිනීමට උත්සාහ කළ යුතුයි.",
+    "ඔබ රතු පාටින් පින්තාරු කර ගොන් මැරතන් ධාවන තරඟයක යෙදිය යුතුය.",
+    "නැවත ඉහළට නොගොස් ඔබේ ජීවිත කාලය පුරාම දිය යට රැඳී සිටිය හැකිය.",
+    "කොහොමද ඔබ දින 1 ක් වගේ හුස්ම ගැනීම නවත්වන්නේ? ඒක නියමයි.",
+    "ඔබ දෙදෙනාම කූඩුවක සිටින විට කොටියෙකු කුපිත කිරීමට උත්සාහ කරන්න.",
+    "ඔබ කැනනයකින් මීටර් 100 ක් තරම් ඉහළට වෙඩි තැබීමට උත්සාහ කර තිබේද?",
+    "ඔබ ඔබේ කටේ ටීඑන්ටී අල්ලාගෙන එය දැල්වීමට උත්සාහ කළ යුතුයි.",
+    "RDX සමඟ විනෝද වීමට උත්සාහ කරන්න.",
+    "ෆොජින් විෂ සහිත බව මට දැනගන්නට ලැබුණි. නමුත් මම හිතන්නේ ඔබ එය විනෝදය සඳහා ආශ්වාස නොකරනු ඇත.",
+    "පෘථිවියේ ඔක්සිජන් අමතක කර අභ්‍යවකාශයට පිවිසෙන්න.",
+    "ඔබ සර්පයන් සහ ඉණිමඟ සෙල්ලම් කිරීමට උත්සාහ කළ යුතුයි. සැබෑ සර්පයන් සහ ඉණිමඟක් නොමැතිව.",
+    "HT වයර් කිහිපයක් මත නිරුවතින් නටන්න.",
+    "සැබෑ ගිනි කන්ද ඔබට හොඳම පිහිනුම් තටාකයයි.",
+    "ඔබ ගිනි කන්දක උණුසුම් ස්නානය කිරීමට උත්සාහ කළ යුතුයි.",
+    "මිනී පෙට්ටියක එක් දිනක් ගත කිරීමට උත්සාහ කරන්න. එය සදහටම ඔබට අයිති වනු ඇත.",
+    "ඔබ ඉදිරියේ සෙමින් චලනය වන නියුට්‍රෝනයකින් යුරේනියම් පහර දෙන්න. එය වටිනා අත්දැකීමක් වනු ඇත.",
+    "ඔබ හිරු මතට පය තැබූ පළමු පුද්ගලයා විය හැකිය. උත්සාහ කර බලන්න.",
 )
 
 SLAP_TEMPLATES = (
@@ -130,69 +132,75 @@ SLAP_TEMPLATES = (
 )
 
 ITEMS = (
-    "cast iron skillet",
-    "large trout",
-    "baseball bat",
-    "cricket bat",
-    "wooden cane",
-    "nail",
-    "printer",
-    "shovel",
-    "CRT monitor",
-    "physics textbook",
-    "toaster",
-    "portrait of Richard Stallman",
-    "television",
-    "five ton truck",
-    "roll of duct tape",
-    "book",
-    "laptop",
-    "old television",
-    "sack of rocks",
-    "rainbow trout",
-    "rubber chicken",
-    "spiked bat",
-    "fire extinguisher",
-    "heavy rock",
-    "chunk of dirt",
-    "beehive",
-    "piece of rotten meat",
-    "bear",
-    "ton of bricks",
+    
+    "වාත්තු යකඩ සායක්",
+    "විශාල තුරුම්පුව",
+    "බේස්බෝල් පිත්ත",
+    "ක්රිකට් පිත්ත",
+    "ලී වේවැල්",
+    "නිය",
+    "මුද්‍රණ යන්ත්‍රය",
+    "සවල",
+    "CRT මොනිටරය",
+    "භෞතික විද්‍යා පෙළ පොත",
+    "ටෝස්ටර්",
+    "රිචඩ් ස්ටෝල්මන්ගේ ආලේඛ්‍ය චිත්‍රය",
+    "රූපවාහිනිය",
+    "ටොන් පහක ට්‍රක්",
+    "ඩක් ටේප් රෝල්",
+    "පොත",
+    "ලැප්ටොප්",
+    "පැරණි රූපවාහිනිය",
+    "පාෂාණ මල්ල",
+    "දේදුන්න තුරුම්පුව",
+    "රබර් චිකන්",
+    "ස්පයික් බැට්",
+    "ගිනි නිවනය",
+    "බර පාෂාණය",
+    "කුණු කැබැල්ල",
+    "මී මැසි",
+    "කුණු වූ මස් කැබැල්ලක්",
+    "වලහා",
+    "ගඩොල් ටොන්",    
 )
 
 THROW = (
-    "throws",
-    "flings",
-    "chucks",
-    "hurls",
+    
+    "විසි",
+    "පියාඹන",
+    "චක්ස්",
+    "හර්ස්",
 )
 
 HIT = (
-    "hits",
+    
+   "පහර",
     "whacks",
-    "slaps",
-    "smacks",
-    "bashes",
+    "කම්මුල්",
+    "ස්මාක්ස්",
+    "බාෂ්",
 )
 
 MARKDOWN_HELP = """
-Markdown is a very powerful formatting tool supported by telegram. {} has some enhancements, to make sure that \
-saved messages are correctly parsed, and to allow you to create buttons.
-- <code>_italic_</code>: wrapping text with '_' will produce italic text
-- <code>*bold*</code>: wrapping text with '*' will produce bold text
-- <code>`code`</code>: wrapping text with '`' will produce monospaced text, also known as 'code'
-- <code>[sometext](someURL)</code>: this will create a link - the message will just show <code>sometext</code>, \
-and tapping on it will open the page at <code>someURL</code>.
-EG: <code>[test](example.com)</code>
-- <code>[buttontext](buttonurl:someURL)</code>: this is a special enhancement to allow users to have telegram \
-buttons in their markdown. <code>buttontext</code> will be what is displayed on the button, and <code>someurl</code> \
-will be the url which is opened.
-EG: <code>[This is a button](buttonurl:example.com)</code>
-If you want multiple buttons on the same line, use :same, as such:
+Markdown adalah alat pemformatan yang luar biasa yang didukung oleh telegram. {} memiliki beberapa peningkatan, untuk memastikan bahwa \
+pesan yang disimpan diuraikan dengan benar, dan untuk memungkinkan Kamu membuat tombol.
+
+- <code>_italic_</code>: membungkus teks dengan '_' akan menghasilkan teks yang miring
+- <code>*bold*</code>: membungkus teks dengan '*' akan menghasilkan teks tebal
+- <code>`code`</code>: membungkus teks dengan '`' akan menghasilkan teks monospace, juga dikenal sebagai 'code'
+- <code>[sometext](someURL)</code>: ini akan membuat tautan - pesannya hanya akan menunjukkan <code> tulisan</code>, \
+dan mengetuknya akan membuka halaman di <code>someURL</code>.
+CONTOH: <code>[Tombol](buttonurl:example.com)</code>
+
+- <code>[buttontext](buttonurl:someURL)</code>: ini adalah penyempurnaan khusus untuk memungkinkan pengguna untuk memiliki \
+tombol telegram dalam markdown mereka. <code>buttontext</code> akan menjadi apa yang ditampilkan pada tombol, dan <code>someurl</code> \
+akan menjadi url yang dibuka.
+CONTOH: <code>[Tombol](buttonurl:example.com)</code>
+
+Jika Kamu ingin beberapa tombol pada baris yang sama, gunakan: same, seperti:
 <code>[one](buttonurl://example.com)
 [two](buttonurl://google.com:same)</code>
-This will create two buttons on a single line, instead of one button per line.
+Ini akan membuat dua tombol pada satu baris, bukan satu tombol per baris.
 """
 
 IndonesianStrings = {
@@ -222,6 +230,17 @@ Main commands available:
 
     "send-group-settings": """Hi there! There are quite a few settings for *{}* - go ahead and pick what
 you're interested in.""",
+
+
+    "Disabled connections to this chat for users": "Disabled connections to this chat for users",
+    "Enabled connections to this chat for users": "Enabled connections to this chat for users",
+    "Please enter on/yes/off/no in group!": "Please enter on/yes/off/no in group!",
+    "Successfully connected to *{}*": "Successfully connected to *{}*",
+    "Connection failed!": "Connection failed!",
+    "Connections to this chat not allowed!": "Connections to this chat not allowed!",
+    "Write chat ID to connect!": "Write chat ID to connect!",
+    "Usage limited to PMs only!": "Usage limited to PMs only!",
+
 
 #Misc
 "RUNS-K": RUN_STRINGS,
@@ -261,17 +280,17 @@ you're interested in.""",
     "It's {} in {}": "It's {} in {}",
 
     "Please reply to a sticker to get its ID.": "එහි හැඳුනුම්පත ලබා ගැනීමට කරුණාකර ස්ටිකරයකට පිළිතුරු දෙන්න.",
-    "Please reply to a sticker for me to upload its PNG.": "Please reply to a sticker for me to upload its PNG.",
+    "Please reply to a sticker for me to upload its PNG.": "කරුණාකර මට PNG උඩුගත කිරීමට ස්ටිකරයකට පිළිතුරු දෙන්න.",
 
     "Write a location to check the weather.": "කාලගුණය පරීක්ෂා කිරීම සඳහා ස්ථානයක් ලියන්න.",
     "I will keep an eye on both happy and sad times!": "ප්‍රීතිමත් හා දුක්බර වේලාවන් දෙස මම විමසිල්ලෙන් සිටිමි!",
     "Today in {} is being {}, around {}°C.\n": "Today in {} is being {}, around {}°C.\n",
-    "Sorry, location not found.": "Sorry, location not found.",
+    "Sorry, location not found.": "කණගාටුයි, ස්ථානය හමු නොවීය.",
 
-    "Deleting identifiable data...": "Deleting identifiable data...",
+    "Deleting identifiable data...": "හඳුනාගත හැකි දත්ත මකා දැමීම ...",
 
     "Try forwarding the following message to me, and you'll see!":
-        "Try forwarding the following message to me, and you'll see!",
+        "පහත පණිවිඩය මා වෙත යොමු කිරීමට උත්සාහ කරන්න, එවිට ඔබට පෙනෙනු ඇත!",
     "/save test This is a markdown test. _italics_, *bold*, `code`, [URL](example.com) [button](buttonurl:github.com) [button2](buttonurl://google.com:same)":
     """/save test This is a markdown test. _italics_, *bold*, `code`, \
 [URL](example.com)
@@ -284,7 +303,7 @@ you're interested in.""",
 "Successfully promoted in *{}*!": "Successfully promoted in *{}*!",
 
 "This person CREATED the chat, how would I demote them?": "මෙම පුද්ගලයා චැට් නිර්මාණය කළේය, මම ඔවුන්ව පහත් කරන්නේ කෙසේද?",
-"Can't demote what wasn't promoted!": "Can't demote what wasn't promoted!",
+"Can't demote what wasn't promoted!": "ප්‍රවර්ධනය නොකළ දේ පහත් කළ නොහැක!",
 "I can't demote myself!": "මට මාවම පහත් කරන්න බැහැ!",
 "Successfully demoted in *{}*!": "සාර්ථකව පහත හෙලනු ලැබීය *{}*!",
 "Could not demote. I might not be admin, or the admin status was appointed by another user, so I can't act upon them!": 
@@ -298,8 +317,8 @@ you're interested in.""",
 " (Creator)": " (Creator)",
 
 #AFK
-"{} is now AFK!": "{} is now AFK!",
-"{} is no longer AFK!": "{} is no longer AFK!",
+"{} is now AFK!": "{} දැන් AFK!",
+"{} is no longer AFK!": "{} තව දුරටත් AFK නෙමෙයි!",
 "{} is AFK!": "{} is AFK!",
 "{} is AFK! says its because of: \n{}": "{} is AFK! says its because of: \n{}",
 
@@ -313,8 +332,8 @@ you're interested in.""",
     "ඇන්ටිෆ්ලූඩ් 0 (අක්‍රීය) හෝ 3 ට වඩා විශාල සංඛ්‍යාවක් (සක්‍රීය) විය යුතුය!",
 "Antiflood has been updated and set to {}": "ඇන්ටිෆ්ලූඩ් යාවත්කාලීන කර සකසා ඇත {}",
 "Unrecognised argument - please use a number, 'off', or 'no'.":
-    "Unrecognised argument - please use a number, 'off', or 'no'.",
-"I'm not currently enforcing flood control!": "I'm not currently enforcing flood control!",
+    "හඳුනා නොගත් තර්කය - කරුණාකර අංකයක් භාවිතා කරන්න, 'off', or 'no'.",
+"I'm not currently enforcing flood control!": "මම දැනට flood control බලාත්මක කරන්නේ නැහැ!",
 "I'm currently banning users if they send more than {} consecutive messages.":
      "පරිශීලකයින් අඛණ්ඩ පණිවිඩ {} ට වඩා එවන්නේ නම් ඔවුන් දැනට තහනම් කර ඇත.",
 
@@ -326,14 +345,14 @@ you're interested in.""",
     "මම මෙම කණ්ඩායමේ ඇන්ටිස්පෑම් ආරක්ෂාව අක්‍රීය කර ඇත. GBans තවදුරටත් ඔබේ පරිශීලකයින්ට බලපාන්නේ නැත. ඕනෑම ට්‍රෝලර් සහ ස්පෑම්කරුවන්ගෙන් ඔබට අඩු ආරක්ෂාවක් ලැබෙනු ඇත!",
 
 "Give me some arguments to choose a setting! on/off, yes/no!\n\nYour current setting is: {}\nWhen True, any gbans that happen will also happen in your group. When False, they won't, leaving you at the possible mercy of spammers.":
-    "Give me some arguments to choose a setting! on/off, yes/no!\n\nYour current setting is: {}\nWhen True, any gbans that happen will also happen in your group. When False, they won't, leaving you at the possible mercy of spammers.",
+    "පසුබිමක් තෝරා ගැනීමට මට තර්ක කිහිපයක් දෙන්න! on/off, yes/no!\n\nඔබගේ වර්තමාන සැකසුම: {}\nසත්‍ය වූ විට, සිදුවන ඕනෑම gbans ඔබේ කණ්ඩායමේ ද සිදුවනු ඇත. අසත්‍ය වූ විට, ඔවුන් එසේ නොකරනු ඇත, ස්පෑම්කරුවන්ගේ දයාවෙන් ඔබව අත්හරිනු ඇත.",
 
 "Globally banned: <b>{}</b>": "ගෝලීය වශයෙන් තහනම්: <b>{}</b>",
 "\nGlobally muted: <b>{}</b>": "\nගෝලීයව නිශ්ශබ්ද කර ඇත: <b>{}</b>",
 "\nReason: {}": "\nReason: {}",
 
 #Bans
-    "I really wish I could ban admins...": "I really wish I could ban admins...",
+    "I really wish I could ban admins...": "මම ඇත්තටම ප්‍රාර්ථනා කරනවා මට පරිපාලකයින් තහනම් කරන්න තිබ්බනම් කියල.... ඒත් බෑ...",
     "I'm not gonna BAN myself, are you crazy?": "මම මාවම තහනම් කරගන් නෑ.. තොට පිස්සුද??",
     "Banned!": "Banned!",
     "Well damn, I can't ban that user.": "ලබ්බ..මට එම පරිශීලකයා තහනම් කළ නොහැක.",
@@ -345,24 +364,24 @@ you're interested in.""",
     "<b>Current blacklisted words in {}:</b>\n": "<b>දැනට ලැයිස්තුගත කර ඇති වචන {}:</b>\n",
     "There are no blacklisted messages in <b>{}</b>!": "<b>{}</b>තුළ ලැයිස්තුගත කර ඇති පණිවිඩ නොමැත!",
     "Added <code>{}</code> to the blacklist in <b>{}</b>!":
-        "Added <code>{}</code> to the blacklist in <b>{}</b>!",
+        " <b>{}</b> හි ඇති අසාදු ලේඛනයට <code>{}</code> එකතු කරන ලදි!",
     "Tell me which words you would like to add to the blacklist.":
         "අසාදු ලේඛනයට ඔබ එකතු කිරීමට කැමති වචන මොනවාදැයි මට කියන්න.",
     "Removed <code>{}</code> from the blacklist in <b>{}</b>!":
-        "Removed <code>{}</code> from the blacklist in <b>{}</b>!",
+        "<b>{}</b> හි ඇති අසාදු ලේඛනයෙන් <code>{}</code> ඉවත් කරන ලදි!",
     "This isn't a blacklisted trigger...!": "මෙය අසාදු ලේඛණගත කළ ප්‍රේරකයක් නොවේ ...!",
     "None of these triggers exist, so they weren't removed.":
         "මෙම ප්‍රේරක කිසිවක් නොපවතින බැවින් ඒවා ඉවත් නොකෙරුණි.",
     "Removed <code>{}</code> triggers from the blacklist in <b>{}</b>! {} did not exist, so were not removed.":
-        "Removed <code>{}</code> triggers from the blacklist in <b>{}</b>! {} did not exist, so were not removed.",
+        "<b> {} </b> හි අසාදු ලේඛනයේ <code> {} </code> ප්‍රේරක ඉවත් කරන ලදි! {}නොපවතින බැවින් ඉවත් නොකළේය.",
     "Tell me which words you would like to remove from the blacklist.":
         "අසාදු ලේඛනයෙන් ඉවත් කිරීමට ඔබ කැමති වචන මොනවාදැයි මට කියන්න.",
 
     #Filters
-    "*Filters in {}:*\n": "*Filters in {}:*\n",
-    "local filters": "local filters",
-    "*local filters:*\n": "*local filters:*\n",
-    "No filters in {}!": "No filters in {}!",
+    "*Filters in {}:*\n": "*{} එකට එකතු කර ඇති ෆිල්ටර:*\n",
+    "local filters": "දේශීය පෙරහන්",
+    "*local filters:*\n": "*දේශීය පෙරහන්:*\n",
+    "No filters in {}!": "{} හි ෆිල්ටර නැත!",
     "There is no note message - You can't JUST have buttons, you need a message to go with it!":
         "සටහන් පණිවිඩයක් නොමැත - ඔබට බොත්තම් තිබිය නොහැක, එය සමඟ යාමට ඔබට පණිවිඩයක් අවශ්‍යය!",
     "You didn't specify what to reply with!": "රිප්ලයි යවන්න ඕන එක ඔයා කිව්වෙ නෑ සුදූ",
@@ -370,33 +389,33 @@ you're interested in.""",
     "No filters are active in {}!": "මොනවත් filters active නෑ {}!",
     "Yep, I'll stop replying to that in *{}*." : "ඔයේ! මම ඒකට රිප්ලයි නොකර ඉන්නම් *{}*.",
     "That's not a current filter - run /filters for all active filters.":
-        "That's not a current filter - run /filters for all active filters.",
+        "එය වත්මන් පෙරණයක් නොවේ - සියලුම ක්‍රියාකාරී පෙරහන් සඳහා run /filters run කරන්න.",
 
     #Disable
-    "Disabled the use of `{}` in *{}*": "Disabled the use of `{}` in *{}*",
+    "Disabled the use of `{}` in *{}*": "*{}* හි {} භාවිතය අක්‍රීය කර ඇත",
     "That command can't be disabled": "එම විධානය අක්‍රිය කළ නොහැක",
     "What should I disable?": "මා අබල කළ යුත්තේ කුමක්ද?",
 
-    "Enabled the use of `{}` in *{}*": "Enabled the use of `{}` in *{}*",
+    "Enabled the use of `{}` in *{}*": "*{}* හි {} භාවිතය සක්‍රීය කර ඇත",
     "Is that even disabled?": "Is that even disabled?",
-    "What should I enable?": "What should I enable?",
+    "What should I enable?": "මා සක්‍රීය කළ යුත්තේ කුමක්ද?",
 
-    "The following commands are toggleable:\n{}": "The following commands are toggleable:\n{}",
-    "No commands can be disabled.": "No commands can be disabled.",
-    "No commands are disabled in *{}*!": "No commands are disabled in *{}*!",
-    "No commands are disabled!": "No commands are disabled!",
+    "The following commands are toggleable:\n{}": "පහත දැක්වෙන විධානයන් ටොගල් කළ හැකිය:\n{}",
+    "No commands can be disabled.": "කිසිදු විධානයක් අක්‍රිය කළ නොහැක.",
+    "No commands are disabled in *{}*!": "විධාන කිසිවක් අක්‍රීය කර නැත *{}*!",
+    "No commands are disabled!": "විධාන කිසිවක් අක්‍රීය කර නැත!",
     "The following commands are currently restricted in *{}*:\n{}":
-        "The following commands are currently restricted in *{}*:\n{}",
+        "*{}* හි පහත දැක්වෙන විධානයන් දැනට සීමා කර ඇත:\n{}",
 
 #Locks
-    "Locked {} messages for all non-admins!": "Locked {} messages for all non-admins!",
+    "Locked {} messages for all non-admins!": "සියලුම පරිපාලකයින් නොවන අය සඳහා {} පණිවිඩ අගුළු දමා ඇත!",
     "What are you trying to lock...? Try /locktypes for the list of lockables":
-        "What are you trying to lock...? Try /locktypes for the list of lockables",
+        "ඔබ අගුලු දැමීමට උත්සාහ කරන්නේ කුමක්ද?...? අගුළු දැමීමේ ලැයිස්තුව සඳහා /locktypes උත්සාහ කරන්න",
     "I'm not an administrator, or haven't got delete rights.":
         "මම පරිපාලකයෙක් නොවේ, නැතහොත් මකාදැමීමේ අයිතියක් නොමැත.",
     "Unlocked {} for everyone!": "{} හැමෝටම Unlock කරා!",
     "What are you trying to unlock...? Try /locktypes for the list of lockables":
-        "මොනවද unlock කරන්න හොයන්නෙ...? Try /locktypes for the list of lockables",
+        "මොනවද unlock කරන්න හොයන්නෙ...? ගුළු දැමීමේ ලැයිස්තුව සඳහා /locktypes උත්සාහ කරන්න",
     "What are you trying to unlock...?": "මොනවද unlock කරන්න හොයන්නෙ...?",
     "I see a bot, and I've been told to stop them joining... but I'm not admin!":
         "මට බොට් එකක් පෙනේ, ඔවුන් මට සම්බන්ධ වීම නවත්වන ලෙස මට පවසා ඇත ... නමුත් මම පරිපාලක නොවේ!",
@@ -433,7 +452,7 @@ you're interested in.""",
         "සියලුම පණිවිඩ මකා දැමිය නොහැක. පණිවිඩ ඉතා පැරණි විය හැකිය, මට මකාදැමීමේ අයිතිවාසිකම් නොතිබිය හැකිය, නැතහොත් මෙය සුපිරි කණ්ඩායමක් නොවිය හැකිය.",
     "Purge complete.": "Purge complete.",
     "Reply to a message to select where to start purging from.":
-        "Reply to a message to select where to start purging from.",
+        "පිරිසිදු කිරීම ආරම්භ කළ යුත්තේ කොතැනින්ද යන්න තේරීමට පණිවිඩයකට පිළිතුරු දෙන්න.",
     "Whadya want to delete?": "මොනෞත්තක්ද ඩිලීට් කරන්න ඕන?",
 
 #Muting
@@ -451,7 +470,7 @@ you're interested in.""",
     "I'm not gonna MUTE myself, are you crazy?" : "මම මාවම මියුට් කරගන්නෙ නෑ.. තොට පිස්සුද???",
     "You haven't specified a time to mute this user for!":
         "මෙම පරිශීලකයා නිශ්ශබ්ද කිරීමට ඔබ කාලයක් නියම කර නැත!",
-    "Muted for {} in {}!": "Muted for {} in {}!",
+    "Muted for {} in {}!": "{} මාලෙකට {} හි මියුටඩ්!",
     "This user is already muted in {}!": "මූ දැනටම මියුටඩ් {}!",
     "Well damn, I can't mute that user.": "රෙද්ද!! මට ඌව මියුට් කරන්න බෑ",
 
@@ -475,15 +494,15 @@ you're interested in.""",
     "You haven't specified a time to restrict this user for!": 
         "මෙම පරිශීලකයා සීමා කිරීමට ඔබ කාලයක් නියම කර නැත!",
     "Well damn, I can't restrict that user.": "හෙනම ගහපන් මට ඌට අරින්න බෑ.",
-    "{} is muted in {}!": "{} is muted in {}!",
-    "Restricted from sending media for {} in {}!": "Restricted from sending media for {} in {}!",
-    "Restricted for {} in {}!": "Restricted for {} in {}!",
+    "{} is muted in {}!": "{} නිහඬ කරල තියෙන්නෙ {} එකේ!",
+    "Restricted from sending media for {} in {}!": "මාද්‍ය යැවීම {} සඳහා {} හි නවතා ඇත!",
+    "Restricted for {} in {}!": "{} තහනම් {} හි!",
 
 #Notes
     "Get rekt": "Get rekt.",
-    "Invalid Chat ID provided!": "Invalid Chat ID provided!", #Connections 
-    "You don't seem to be referring to a user.": "You don't seem to be referring to a user.", #Admin, Bans, Muting
-    "I can't seem to find this user": "I can't seem to find this user", #Bans, Muting
+    "Invalid Chat ID provided!": "අවලංගු චැට් හැඳුනුම්පත ලබා දී ඇත!", #Connections 
+    "You don't seem to be referring to a user.": "ඔබ පරිශීලකයෙකු වෙත යොමු වන බවක් නොපෙනේ.", #Admin, Bans, Muting
+    "I can't seem to find this user": "මට මෙම පරිශීලකයා සොයා ගත නොහැක",
     "Yes": "Yes", #Antispam
     "No": "No", #Antispam
 
@@ -582,18 +601,132 @@ filters සිද්ධි සංවේදී නොවේ; ඔබේ ප්‍�
 දැන්, "හෙලෝ" යැයි කියන ඕනෑම කෙනෙකුට "ආයුබෝවන්! ඔබට කොහොමද?"""),
 
 
+"Bans_help": """සමහර අය ප්‍රසිද්ධියේ තහනම් කළ යුතුය; spammers, annoyances, or just trolls.
+මෙම මොඩියුලය ඔබට සමහර පොදු ක්‍රියා හෙළි කිරීමෙන් පහසුවෙන් එය කිරීමට ඉඩ සලසයි, එවිට සෑම කෙනෙකුම දකිනු ඇත!
+Available commands are:
+ - /ban: ඔබගේ සංවාදයෙන් පරිශීලකයෙකු තහනම් කරයි.
+ - /banme: ඔබම තහනම් කරන්න
+ - /tban: ඔබගේ චැට් එකෙන් පරිශීලකයෙකු තාවකාලිකව තහනම් කරයි. set time using int<d/h/m> (days hours minutes)
+ - /unban: ඔබගේ කතාබසෙන් පරිශීලකයෙකු unban කරයි.
+ - /sban: නිහඬව පරිශීලකයෙකු තහනම් කරයි (via handle, or reply)
+ - /mute: ඔබගේ සංවාදයේ පරිශීලකයෙකු නිශ්ශබ්ද කරන්න.
+ - /tmute: ඔබගේ සංවාදයේ පරිශීලකයෙකු තාවකාලිකව නිශ්ශබ්ද කරන්න. set time using int<d/h/m> (days hours minutes)
+ - /unmute: ඔබගේ සංවාදයේ පරිශීලකයෙකු unmute කරන්න.
+ - /kick: ඔබගේ සංවාදයෙන් පරිශීලකයෙකු පන්නයි.
+ - /kickme: මෙය භාවිතා කරන පරිශීලකයින්, තමන්ටම පයින් ගසාගනී!
+ යමෙකු තාවකාලිකව mute කිරීමේ උදාහරණයක්:
+/tmute @username 2h; this mutes a user for 2 hours.""",
+
+"Connections_help": """සමහර විට, ඔබට කණ්ඩායම් සංවාදයකට සටහන් සහ පෙරහන් කිහිපයක් එක් කිරීමට අවශ්‍ය නමුත් සියල්ලන්ම දැකීමට ඔබට අවශ්‍ය නැත; සම්බන්ධතා පැමිණෙන්නේ මෙහිදීය ...
+මෙය ඔබට චැට් දත්ත ගබඩාවකට සම්බන්ධ වීමට ඉඩ සලසයි, ඒ ගැන කතාබහකින් තොරව ඒ සඳහා දේවල් එකතු කරන්න! පැහැදිලි හේතු නිසා, දේවල් එකතු කිරීම සඳහා ඔබ පරිපාලකයෙකු විය යුතුය; නමුත් ඕනෑම සාමාජිකයෙකුට ඔබගේ දත්ත බැලීමට හැකිය. (තහනම් / පයින් ගැසූ පරිශීලකයින්ට නොහැක!)
+Actions are available with connected groups:
+ • සටහන් බලන්න සහ සංස්කරණය කරන්න
+ • ෆිල්ටර් බලන්න සහ සංස්කරණය කරන්න
+ • අසාදු ලේඛණ බලන්න සහ සංස්කරණය කරන්න
+ • පරිශීලකයින් Promote/demote කිරීම
+ • පරිපාලක ලැයිස්තුව බලන්න, ආරාධිත සබැඳිය බලන්න
+ • චැට් තුළ විධාන අක්‍රීය / සක්‍රීය කරන්න
+ • චැට් භාවිතා කරන්නන් Mute/unmute කරන්න
+ • චැට් භාවිතා කරන්නන් Restrict/unrestrict කරන්න
+ • More in future!
+ - ගෲප් එක තුල /connect or /connection යනුවෙන් ටයිප් කරන්න
+ - /connection or /connect <chatid>: දුරස්ථ කතාබස් වෙත සම්බන්ධ වන්න
+ - /disconnect: කතාබස් වලින් විසන්ධි කරන්න
+ - /allowconnect on/yes/off/no: කණ්ඩායම් වලට සම්බන්ධ වීමට පරිශීලකයින්ට ඉඩ දෙන්න
+ ඔබගේ චැට් එකේ /id විධානය භාවිතා කිරීමෙන් ඔබට චැට් අයිඩී ලබා ගත හැකිය. හැඳුනුම්පත negative  නම් පුදුම නොවන්න; සියලුම සුපිරි කණ්ඩායම් වලට negative අයිඩී ඇත.""",
+
+
+
+"Reporting_help": """ - /report <reason>: balas pesan untuk melaporkannya ke admin.
+ - @admin: balas pesan untuk melaporkannya ke admin.
+CATATAN: tidak satu pun dari ini akan dipicu jika digunakan oleh admin
+*Admin only:*
+ - /reports <on/off>: mengubah pengaturan laporan, atau melihat status saat ini.
+   - Jika dilakukan pada pm, matikan status Kamu.
+   - Jika dalam obrolan, matikan status obrolan itu.""",
+
+"Notes_help": """සටහන් සහිත අනාගත පරිශීලකයින් සඳහා දත්ත සුරකින්න!
+අහඹු තොරතුරු තොරතුරු සුරැකීමට සටහන් විශිෂ්ටයි; දුරකථන අංකයක්, ලස්සන තෑග්ගක්, විහිලු පින්තූරයක් - ඕනෑම දෙයක්!
+පවතින විධාන:
+ - /save <word> <sentence>: එම වාක්‍යය "වචනය" නම් සටහනට සුරකින්න. පණිවිඩයකට පිළිතුරු දීමෙන් එම පණිවිඩය සුරැකෙනු ඇත. මාධ්ය මත පවා ක්රියා කරයි!
+ - /get <word>: එම වචනයට සටහන ලියාපදිංචි කරන්න.
+ - #<word>: වචනයට සමාන / ලබා ගන්න
+ - /clear <word>: "වචනය" නම් සටහන මකන්න
+ - /notes : වත්මන් සංවාදයේ සියලුම සටහන් ලැයිස්තුගත කරන්න
+ - /saved /notes වලට සමාන වේ
+සටහනක් සුරැකෙන ආකාරය පිළිබඳ උදාහරණයක් පහත පරිදි වේ:
+/save data මෙය දත්ත කිහිපයක්!
+දැන්, "/get data", හෝ "#data" භාවිතා කරන ඕනෑම කෙනෙකුට "මෙය දත්ත කිහිපයක්!"
+ඔබට රූපයක්, gif, හෝ ස්ටිකර් හෝ වෙනත් දත්ත සුරැකීමට අවශ්‍ය නම්, පහත සඳහන් දේ කරන්න:
+/save ස්ටිකර් එකකට හෝ ඔබ කැමති ඕනෑම දත්තයකට පිළිතුරු දෙන අතරතුර වචනය සුරකින්න. දැන්, "# වචනය" හි සටහනෙහි ස්ටිකරයක් අඩංගු වන අතර එය පිළිතුරක් ලෙස යවනු ලැබේ.
+ඉඟිය: ආකෘතිකරණයකින් තොරව සටහනක් ලබා ගැනීමට, <notename> noformat භාවිතා කරන්න / ලබා ගන්න
+මෙය නෝට්ටුව ලබාගෙන එය ආකෘතිකරණය නොකර යවනු ඇත; ඔබට අමු සලකුණු ලබා ගැනීම, පහසුවෙන් සංස්කරණය කිරීමට ඉඩ ලබා දේසටහන් සහිත අනාගත පරිශීලකයින් සඳහා දත්ත සුරකින්න!
+""",
+
+
+
+"Rules_help": """  - /rules: මෙම කතාබහ සඳහා නීති ලබා දෙයි.
+*Admin only:*
+ - /setrules <your rules here>: sමෙම කතාබහ සඳහා නීති සකසන්න.
+ - /clearrules: මෙම කතාබහ සඳහා නීති ඉවත් කරන්න.
+""",
+
+
+
+"Word Blacklists_help":"""මිනිසුන් යම් යම් දේ පවසන විට ස්වයංක්‍රීයව ක්‍රියා කිරීමට ඔබට අසාදු ලේඛණ පෙරහන් සැකසිය හැකිය. මෙය සිදු කරන්නේ:
+ - /addblacklist <blacklist trigger> <blacklist reason>: blacklists the trigger. You can set sentences by putting quotes around the reason.
+ - /unblacklist <blacklist trigger>: stop blacklisting a certain blacklist trigger.
+ - /rmblacklist <blacklist trigger>: same as /unblacklist
+ - /blacklist: list all active blacklist filters
+/addblacklist "the admins suck" Respect your admins!
+This would delete any message containing 'the admins suck'.
+If you've enabled an alternative blacklist mode, it will warn, ban, kick, or mute a user with a message specifying the reason.
+Top tip:
+Blacklists allow you to use some modifiers to match "unknown" characters. For example, you can use the ? character to match a single occurence of any non-whitespace character.
+You could also use the * modifier, which matches any number of any character. If you want to blacklist urls, this will allow you to match the full thing. It matches every character except spaces. This is cool if you want to stop, for example, url shorteners.
+For example, the following will ban any bit.ly link:
+/addblacklist "bit.ly/*" We dont like shorteners!
+If you wanted to only match bit.ly/ links followed by three characters, you could use:
+/addblacklist "bit.ly/???" We dont like shorteners!
+This would match bit.ly/abc, but not bit.ly/abcd.""",
+
+
+
+"Federations_help": """අහ්, කණ්ඩායම් කළමනාකරණය. අයාචිත තැපැල්කරු ඔබේ කණ්ඩායමට ඇතුළු වන තෙක් සියල්ල විනෝදජනක වන අතර ඔබට එය අවහිර කළ යුතුය. එවිට ඔබ තව තවත් තහනම් කිරීම ආරම්භ කළ යුතු අතර තවත් බොහෝ දේ රිදෙනවා.
+නමුත් ඔබට බොහෝ කණ්ඩායම් ඇති අතර, මෙම අයාචිත තැපැල්කරු ඔබගේ කණ්ඩායමක සිටීම ඔබට අවශ්‍ය නැත - ඔබට ගනුදෙනු කළ හැක්කේ කෙසේද? ඔබගේ සියලු කණ්ඩායම් තුළ ඔබ එය අතින් අවහිර කළ යුතුද?
+තවදුරටත් නැත! සම්මේලනය සමඟ, ඔබට අනෙක් සියලුම කතාබස් සමඟ එක් චැට් අතිච්ඡාදනයකින් තහනමක් කළ හැකිය.
+ඔබට පරිපාලක සම්මේලන පවා නම් කළ හැකිය, එබැවින් ඔබේ විශ්වාසදායක පරිපාලකයාට ඔබට ආරක්ෂා කිරීමට අවශ්‍ය සියලුම කතාබස් තහනම් කළ හැකිය.
+Still the experimental stage, to make Federation can only be done by my maker
+Command:
+ - /newfed <fedname>: create a new Federation with the name given. Users are only allowed to have one Federation. This method can also be used to rename the Federation. (max. 64 characters)
+ - /delfed: delete your Federation, and any information related to it. Will not cancel blocked users.
+ - /fedinfo <FedID>: information about the specified Federation.
+ - /joinfed <FedID>: join the current chat to the Federation. Only chat owners can do this. Every chat can only be in one Federation.
+ - /leavefed <FedID>: leave the Federation given. Only chat owners can do this.
+ - /fpromote <user>: promote Users to give fed admin. Fed owner only.
+ - /fdemote <user>: drops the User from the admin Federation to a normal User. Fed owner only.
+ - /fban <user>: ban users from all federations where this chat takes place, and executors have control over.
+ - /unfban <user>: cancel User from all federations where this chat takes place, and that the executor has control over.
+ - /setfrules: Arrange Federation rules.
+ - /frules: See Federation regulations.
+ - /chatfed: See the Federation in the current chat.
+ - /fedadmins: Show Federation admin.
+ - /fbanlist: Displays all users who are victimized at the Federation at this time.
+ - /fedchats: Get all the chats that are connected in the Federation.
+ - /importfbans: Reply to the Federation backup message file to import the banned list to the Federation now.
+""",
 
 
 
 
 
 #GDPR
-"send-gdpr": """Your personal data has been deleted.\n\nNote that this will not unban \
-you from any chats, as that is telegram data, not YanaBot data.
-Flooding, warns, and gbans are also preserved, as of \
+"send-gdpr": """Data pribadi Kamu telah dihapus.\n\nPerhatikan bahwa ini tidak akan membatalkan blokir \
+kamu dari obrolan apa pun, karena itu adalah data telegram, bukan data Bot.
+Flooding, warns, dan gbans tetap tersimpan, seperti pada \
 [this](https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-erasure/), "
-which clearly states that the right to erasure does not apply \
-\"for the performance of a task carried out in the public interest\", as is \
-the case for the aforementioned pieces of data."""
+yang dengan jelas menyatakan bahwa hak untuk dihapus tidak berlaku \
+\"untuk pelaksanaan tugas yang dilakukan untuk kepentingan umum\", seperti halnya \
+kasus untuk potongan data tersebut."""
 
 }
