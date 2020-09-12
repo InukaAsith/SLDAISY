@@ -451,46 +451,31 @@ def security_text_reset(bot: Bot, update: Update):
     sql.set_welcome_security(chat.id, getcur, cur_value, "Click here to prove you're human!")
     update.effective_message.reply_text(" The text of security button has been reset to: `Click here to prove you're human!`", parse_mode="markdown")
 
+
 @run_async
 @user_admin
-@loggable
 def cleanservice(bot: Bot, update: Update, args: List[str]) -> str:
-    chat = update.effective_chat
-    user = update.effective_user
-
-    if not args:
-        clean_pref = sql.get_clean_pref(chat.id)
-        if clean_pref:
-            update.effective_message.reply_text(
-                "I should be deleting welcome messages up to two days old."
-            )
+    chat = update.effective_chat  # type: Optional[Chat]
+    if chat.type != chat.PRIVATE:
+        if len(args) >= 1:
+            var = args[0]
+            if (var == "no" or var == "off"):
+                sql.set_clean_service(chat.id, False)
+                update.effective_message.reply_text("I'll leave service messages")
+            elif(var == "yes" or var == "on"):
+                sql.set_clean_service(chat.id, True)
+                update.effective_message.reply_text("I will clean service messages")
+            else:
+                update.effective_message.reply_text("Please enter yes or no!", parse_mode=ParseMode.MARKDOWN)
         else:
-            update.effective_message.reply_text(
-                "I'm currently not deleting old welcome messages!"
-            )
-        return ""
-
-    if args[0].lower() in ("on", "yes"):
-        sql.set_clean_welcome(str(chat.id), True)
-        update.effective_message.reply_text("I'll try to delete old welcome messages!")
-        return (
-            f"<b>{html.escape(chat.title)}:</b>\n"
-            f"#CLEAN_WELCOME\n"
-            f"<b>Admin:</b> {mention_html(user.id, user.first_name)}\n"
-            f"Has toggled clean welcomes to <code>ON</code>."
-        )
-    elif args[0].lower() in ("off", "no"):
-        sql.set_clean_welcome(str(chat.id), False)
-        update.effective_message.reply_text("I won't delete old welcome messages.")
-        return (
-            f"<b>{html.escape(chat.title)}:</b>\n"
-            f"#CLEAN_WELCOME\n"
-            f"<b>Admin:</b> {mention_html(user.id, user.first_name)}\n"
-            f"Has toggled clean welcomes to <code>OFF</code>."
-        )
+            update.effective_message.reply_text("Please enter yes or no!", parse_mode=ParseMode.MARKDOWN)
     else:
-        update.effective_message.reply_text("I understand 'on/yes' or 'off/no' only!")
-        return ""
+        curr = sql.clean_service(chat.id)
+        if curr:
+            update.effective_message.reply_text("I will now clean `x joined the group` message!", parse_mode=ParseMode.MARKDOWN)
+        else:
+            update.effective_message.reply_text("I will no longer clean `x joined the group` message!", parse_mode=ParseMode.MARKDOWN)
+
 
 
 @run_async
@@ -785,6 +770,7 @@ Available commands are:
  - /resetwelcome: resets your welcome message to default; deleting any changes you've made.
  - /setgoodbye <message>: sets your new goodbye message! Markdown and buttons are supported, as well as fillings.
  - /resetgoodbye: resets your goodbye message to default; deleting any changes you've made.
+ - /cleanservice <on/off/yes/no>: deletes all service message; those are the annoying "x joined the group" you see when people join.
  - /cleanwelcome <on/off/yes/no>: deletes old welcome messages; when a new person joins, the old message is deleted.
  - /welcomemute <on/off/yes/no>: all users that join, get muted; a button gets added to the welcome message for them to unmute themselves. This proves they aren't a bot!
  - /welcomemutetime <Xw/d/h/m>: if a user hasnt pressed the "unmute" button in the welcome message after a certain this time, they'll get unmuted automatically after this period of time.
@@ -833,7 +819,7 @@ SECURITY_HANDLER = CommandHandler("welcomemute", security, pass_args=True, filte
 SECURITY_MUTE_HANDLER = CommandHandler("welcomemutetime", security_mute, pass_args=True, filters=Filters.group)
 SECURITY_BUTTONTXT_HANDLER = CommandHandler("setmutetext", security_text, pass_args=True, filters=Filters.group)
 SECURITY_BUTTONRESET_HANDLER = CommandHandler("resetmutetext", security_text_reset, filters=Filters.group)
-
+CLEAN_SERVICE_HANDLER = CommandHandler("cleanservice", cleanservice, pass_args=True, filters=Filters.group)
 
 help_callback_handler = CallbackQueryHandler(check_bot_button, pattern=r"check_bot_")
 
@@ -850,6 +836,6 @@ dispatcher.add_handler(SECURITY_HANDLER)
 dispatcher.add_handler(SECURITY_MUTE_HANDLER)
 dispatcher.add_handler(SECURITY_BUTTONTXT_HANDLER)
 dispatcher.add_handler(SECURITY_BUTTONRESET_HANDLER)
-
+dispatcher.add_handler(CLEAN_SERVICE_HANDLER)
 
 dispatcher.add_handler(help_callback_handler)
