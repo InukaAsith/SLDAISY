@@ -266,8 +266,8 @@ you're interested in.""",
     "\nLast Name: {}": "\nLast Name: {}",
     "\nUsername: @{}": "\nUsername: @{}",
     "\nPermanent user link: {}": "\nPermanent user link: {}",
-    "\n\nThis person is my owner - I would never do anything against them!":
-        "\n\nමේ මගේ අයිතිකාරයා - මම එයාට විරුද්ධව මොනවත් කරන්නෙ නෑ!",
+    "\nThis person is my owner - I would never do anything against them!":
+        "\nමේ මගේ අයිතිකාරයා - මම එයාට විරුද්ධව මොනවත් කරන්නෙ නෑ!",
     "\nThis person is one of my sudo users! Nearly as powerful as my owner - so watch it.":
         "\nමෙම පුද්ගලයා මගේ සුඩෝ භාවිතා කරන්නෙකි! මගේ හිමිකරු තරම් බලවත්",
     "\nThis person is one of my support users! Not quite a sudo user, but can still gban you off the map.":
@@ -300,7 +300,7 @@ you're interested in.""",
 #Admin
 "How am I meant to promote someone that's already an admin?": "දැනටමත් පරිපාලකයෙකු වන අයෙකු ප්‍රවර්ධනය කිරීමට මා අදහස් කරන්නේ කෙසේද?",
 "I can't promote myself! Get an admin to do it for me.": "මට මාවම ප්‍රවර්ධනය කළ නොහැක! මා වෙනුවෙන් එය කිරීමට පරිපාලකයෙකු ලබා ගන්න.",
-"Successfully promoted in *{}*!": "Successfully promoted in *{}*!",
+"Successfully promoted in *{}*!": "සාර්ථකව ප්‍රවර්ධනය කරන ලදි *{}*!",
 
 "This person CREATED the chat, how would I demote them?": "මෙම පුද්ගලයා චැට් නිර්මාණය කළේය, මම ඔවුන්ව පහත් කරන්නේ කෙසේද?",
 "Can't demote what wasn't promoted!": "ප්‍රවර්ධනය නොකළ දේ පහත් කළ නොහැක!",
@@ -323,29 +323,21 @@ you're interested in.""",
 "{} is AFK! says its because of: \n{}": "{} is AFK! says its because of: \n{}",
 
 #Antiflood
-"I like to leave the flooding to natural disasters. But you, you were just a disappointment. Get out.":
-     "කරුමක්කාරයන්ට ස්වාභාවිකව කෙලවෙන්නවට මම සාමන්‍යයෙන් කැමති. හැබැයි තෝ, තෝ මාර කරුමයක් උනා. පල යන්න.",
-"I can't kick people here, give me permissions first! Until then, I'll disable antiflood.":
-    "මට මෙතන මිනිස්සුන්ට පයින් ගහන්න බැහැ, මුලින්ම මට අවසර දෙන්න! එතෙක් මම ඇන්ටිෆ්ලූඩ් අක්‍රීය කරමි.",
+"I like to leave the flooding to natural disasters. But you, you were just a disappointment. Get out.":"කරුමක්කාරයන්ට ස්වාභාවිකව කෙලවෙන්නවට මම සාමන්‍යයෙන් කැමති. හැබැයි තෝ, තෝ මාර කරුමයක් උනා. පල යන්න.",
+"I can't kick people here, give me permissions first! Until then, I'll disable antiflood.":"මට මෙතන මිනිස්සුන්ට පයින් ගහන්න බැහැ, මුලින්ම මට අවසර දෙන්න! එතෙක් මම ඇන්ටිෆ්ලූඩ් අක්‍රීය කරමි.",
 "Antiflood has been disabled.": "ඇන්ටිෆ්ලූඩ් අක්‍රීය කර ඇත.",
-"Antiflood has to be either 0 (disabled), or a number bigger than 3 (enabled)!":
-    "ඇන්ටිෆ්ලූඩ් 0 (අක්‍රීය) හෝ 3 ට වඩා විශාල සංඛ්‍යාවක් (සක්‍රීය) විය යුතුය!",
+"Antiflood has to be either 0 (disabled), or a number bigger than 3 (enabled)!":"ඇන්ටිෆ්ලූඩ් 0 (අක්‍රීය) හෝ 3 ට වඩා විශාල සංඛ්‍යාවක් (සක්‍රීය) විය යුතුය!",
 "Antiflood has been updated and set to {}": "ඇන්ටිෆ්ලූඩ් යාවත්කාලීන කර සකසා ඇත {}",
-"Unrecognised argument - please use a number, 'off', or 'no'.":
-    "හඳුනා නොගත් තර්කය - කරුණාකර අංකයක් භාවිතා කරන්න, 'off', or 'no'.",
+"Unrecognised argument - please use a number, 'off', or 'no'.":"හඳුනා නොගත් තර්කය - කරුණාකර අංකයක් භාවිතා කරන්න, 'off', or 'no'.",
 "I'm not currently enforcing flood control!": "මම දැනට flood control බලාත්මක කරන්නේ නැහැ!",
-"I'm currently banning users if they send more than {} consecutive messages.":
-     "පරිශීලකයින් අඛණ්ඩ පණිවිඩ {} ට වඩා එවන්නේ නම් ඔවුන් දැනට තහනම් කර ඇත.",
+"I'm currently banning users if they send more than {} consecutive messages.":"පරිශීලකයින් අඛණ්ඩ පණිවිඩ {} ට වඩා එවන්නේ නම් ඔවුන් දැනට තහනම් කර ඇත.",
 
 #Antispam
-"I've enabled antispam security in this group. This will help protect you from spammers, unsavoury characters, and the biggest trolls.":
- "මම මෙම කණ්ඩායම තුළ ඇන්ටිස්පෑම් ආරක්ෂාව සක්‍රීය කර ඇත. මෙය අයාචිත තැපැල්, අනවශ්‍ය චරිත සහ විශාලතම ට්‍රෝලර් වලින් ඔබව ආරක්ෂා කිරීමට උපකාරී වේ.",
+"I've enabled antispam security in this group. This will help protect you from spammers, unsavoury characters, and the biggest trolls.":"මම මෙම කණ්ඩායම තුළ ඇන්ටිස්පෑම් ආරක්ෂාව සක්‍රීය කර ඇත. මෙය අයාචිත තැපැල්, අනවශ්‍ය චරිත සහ විශාලතම ට්‍රෝලර් වලින් ඔබව ආරක්ෂා කිරීමට උපකාරී වේ.",
 
-"I've disabled antispam security in this group. GBans wont affect your users anymore. You'll be less protected from any trolls and spammers though!":
-    "මම මෙම කණ්ඩායමේ ඇන්ටිස්පෑම් ආරක්ෂාව අක්‍රීය කර ඇත. GBans තවදුරටත් ඔබේ පරිශීලකයින්ට බලපාන්නේ නැත. ඕනෑම ට්‍රෝලර් සහ ස්පෑම්කරුවන්ගෙන් ඔබට අඩු ආරක්ෂාවක් ලැබෙනු ඇත!",
+"I've disabled antispam security in this group. GBans wont affect your users anymore. You'll be less protected from any trolls and spammers though!":"මම මෙම කණ්ඩායමේ ඇන්ටිස්පෑම් ආරක්ෂාව අක්‍රීය කර ඇත. GBans තවදුරටත් ඔබේ පරිශීලකයින්ට බලපාන්නේ නැත. ඕනෑම ට්‍රෝලර් සහ ස්පෑම්කරුවන්ගෙන් ඔබට අඩු ආරක්ෂාවක් ලැබෙනු ඇත!",
 
-"Give me some arguments to choose a setting! on/off, yes/no!\n\nYour current setting is: {}\nWhen True, any gbans that happen will also happen in your group. When False, they won't, leaving you at the possible mercy of spammers.":
-    "පසුබිමක් තෝරා ගැනීමට මට තර්ක කිහිපයක් දෙන්න! on/off, yes/no!\n\nඔබගේ වර්තමාන සැකසුම: {}\nසත්‍ය වූ විට, සිදුවන ඕනෑම gbans ඔබේ කණ්ඩායමේ ද සිදුවනු ඇත. අසත්‍ය වූ විට, ඔවුන් එසේ නොකරනු ඇත, ස්පෑම්කරුවන්ගේ දයාවෙන් ඔබව අත්හරිනු ඇත.",
+"Give me some arguments to choose a setting! on/off, yes/no!\n\nYour current setting is: {}\nWhen True, any gbans that happen will also happen in your group. When False, they won't, leaving you at the possible mercy of spammers.":"පසුබිමක් තෝරා ගැනීමට මට තර්ක කිහිපයක් දෙන්න! on/off, yes/no!\n\nඔබගේ වර්තමාන සැකසුම: {}\nසත්‍ය වූ විට, සිදුවන ඕනෑම gbans ඔබේ කණ්ඩායමේ ද සිදුවනු ඇත. අසත්‍ය වූ විට, ඔවුන් එසේ නොකරනු ඇත, ස්පෑම්කරුවන්ගේ දයාවෙන් ඔබව අත්හරිනු ඇත.",
 
 "Globally banned: <b>{}</b>": "ගෝලීය වශයෙන් තහනම්: <b>{}</b>",
 "\nGlobally muted: <b>{}</b>": "\nගෝලීයව නිශ්ශබ්ද කර ඇත: <b>{}</b>",
@@ -354,7 +346,7 @@ you're interested in.""",
 #Bans
     "I really wish I could ban admins...": "මම ඇත්තටම ප්‍රාර්ථනා කරනවා මට පරිපාලකයින් තහනම් කරන්න තිබ්බනම් කියල.... ඒත් බෑ...",
     "I'm not gonna BAN myself, are you crazy?": "මම මාවම තහනම් කරගන් නෑ.. තොට පිස්සුද??",
-    "Banned!": "Banned!",
+    "Banned!": "තහනම්!!",
     "Well damn, I can't ban that user.": "ලබ්බ..මට එම පරිශීලකයා තහනම් කළ නොහැක.",
     "You haven't specified a time to ban this user for!":
         "මෙම පරිශීලකයා තහනම් කිරීමට ඔබ කාලයක් නියම කර නැත!",
@@ -363,33 +355,25 @@ you're interested in.""",
 #Blacklist
     "<b>Current blacklisted words in {}:</b>\n": "<b>දැනට ලැයිස්තුගත කර ඇති වචන {}:</b>\n",
     "There are no blacklisted messages in <b>{}</b>!": "<b>{}</b>තුළ ලැයිස්තුගත කර ඇති පණිවිඩ නොමැත!",
-    "Added <code>{}</code> to the blacklist in <b>{}</b>!":
-        " <b>{}</b> හි ඇති අසාදු ලේඛනයට <code>{}</code> එකතු කරන ලදි!",
-    "Tell me which words you would like to add to the blacklist.":
-        "අසාදු ලේඛනයට ඔබ එකතු කිරීමට කැමති වචන මොනවාදැයි මට කියන්න.",
-    "Removed <code>{}</code> from the blacklist in <b>{}</b>!":
-        "<b>{}</b> හි ඇති අසාදු ලේඛනයෙන් <code>{}</code> ඉවත් කරන ලදි!",
+    "Added <code>{}</code> to the blacklist in <b>{}</b>!":" <b>{}</b> හි ඇති අසාදු ලේඛනයට <code>{}</code> එකතු කරන ලදි!",
+    "Tell me which words you would like to add to the blacklist.":"අසාදු ලේඛනයට ඔබ එකතු කිරීමට කැමති වචන මොනවාදැයි මට කියන්න.",
+    "Removed <code>{}</code> from the blacklist in <b>{}</b>!":"<b>{}</b> හි ඇති අසාදු ලේඛනයෙන් <code>{}</code> ඉවත් කරන ලදි!",
     "This isn't a blacklisted trigger...!": "මෙය අසාදු ලේඛණගත කළ ප්‍රේරකයක් නොවේ ...!",
-    "None of these triggers exist, so they weren't removed.":
-        "මෙම ප්‍රේරක කිසිවක් නොපවතින බැවින් ඒවා ඉවත් නොකෙරුණි.",
-    "Removed <code>{}</code> triggers from the blacklist in <b>{}</b>! {} did not exist, so were not removed.":
-        "<b> {} </b> හි අසාදු ලේඛනයේ <code> {} </code> ප්‍රේරක ඉවත් කරන ලදි! {}නොපවතින බැවින් ඉවත් නොකළේය.",
-    "Tell me which words you would like to remove from the blacklist.":
-        "අසාදු ලේඛනයෙන් ඉවත් කිරීමට ඔබ කැමති වචන මොනවාදැයි මට කියන්න.",
+    "None of these triggers exist, so they weren't removed.":"මෙම ප්‍රේරක කිසිවක් නොපවතින බැවින් ඒවා ඉවත් නොකෙරුණි.",
+    "Removed <code>{}</code> triggers from the blacklist in <b>{}</b>! {} did not exist, so were not removed.":"<b> {} </b> හි අසාදු ලේඛනයේ <code> {} </code> ප්‍රේරක ඉවත් කරන ලදි! {}නොපවතින බැවින් ඉවත් නොකළේය.",
+    "Tell me which words you would like to remove from the blacklist.":"අසාදු ලේඛනයෙන් ඉවත් කිරීමට ඔබ කැමති වචන මොනවාදැයි මට කියන්න.",
 
     #Filters
-    "*Filters in {}:*\n": "*{} එකට එකතු කර ඇති ෆිල්ටර:*\n",
+    "*Filters in {}:*\n": "{} තුල සක්‍රීයව ඇති *Filters:*\n",
     "local filters": "දේශීය පෙරහන්",
     "*local filters:*\n": "*දේශීය පෙරහන්:*\n",
     "No filters in {}!": "{} හි ෆිල්ටර නැත!",
-    "There is no note message - You can't JUST have buttons, you need a message to go with it!":
-        "සටහන් පණිවිඩයක් නොමැත - ඔබට බොත්තම් තිබිය නොහැක, එය සමඟ යාමට ඔබට පණිවිඩයක් අවශ්‍යය!",
+    "There is no note message - You can't JUST have buttons, you need a message to go with it!":"සටහන් පණිවිඩයක් නොමැත - ඔබට බොත්තම් තිබිය නොහැක, එය සමඟ යාමට ඔබට පණිවිඩයක් අවශ්‍යය!",
     "You didn't specify what to reply with!": "රිප්ලයි යවන්න ඕන එක ඔයා කිව්වෙ නෑ සුදූ",
     "Handler '{}' added in *{}*!": "වචනෙ '{}' add කරා *{}*!",
     "No filters are active in {}!": "මොනවත් filters active නෑ {}!",
     "Yep, I'll stop replying to that in *{}*." : "ඔයේ! මම ඒකට රිප්ලයි නොකර ඉන්නම් *{}*.",
-    "That's not a current filter - run /filters for all active filters.":
-        "එය වත්මන් පෙරණයක් නොවේ - සියලුම ක්‍රියාකාරී පෙරහන් සඳහා run /filters run කරන්න.",
+    "That's not a current filter - run /filters for all active filters.":"එය වත්මන් පෙරණයක් නොවේ - සියලුම ක්‍රියාකාරී පෙරහන් සඳහා run /filters run කරන්න.",
 
     #Disable
     "Disabled the use of `{}` in *{}*": "*{}* හි {} භාවිතය අක්‍රීය කර ඇත",
@@ -404,23 +388,17 @@ you're interested in.""",
     "No commands can be disabled.": "කිසිදු විධානයක් අක්‍රිය කළ නොහැක.",
     "No commands are disabled in *{}*!": "විධාන කිසිවක් අක්‍රීය කර නැත *{}*!",
     "No commands are disabled!": "විධාන කිසිවක් අක්‍රීය කර නැත!",
-    "The following commands are currently restricted in *{}*:\n{}":
-        "*{}* හි පහත දැක්වෙන විධානයන් දැනට සීමා කර ඇත:\n{}",
+    "The following commands are currently restricted in *{}*:\n{}":"*{}* හි පහත දැක්වෙන විධානයන් දැනට සීමා කර ඇත:\n{}",
 
 #Locks
     "Locked {} messages for all non-admins!": "සියලුම පරිපාලකයින් නොවන අය සඳහා {} පණිවිඩ අගුළු දමා ඇත!",
-    "What are you trying to lock...? Try /locktypes for the list of lockables":
-        "ඔබ අගුලු දැමීමට උත්සාහ කරන්නේ කුමක්ද?...? අගුළු දැමීමේ ලැයිස්තුව සඳහා /locktypes උත්සාහ කරන්න",
-    "I'm not an administrator, or haven't got delete rights.":
-        "මම පරිපාලකයෙක් නොවේ, නැතහොත් මකාදැමීමේ අයිතියක් නොමැත.",
+    "What are you trying to lock...? Try /locktypes for the list of lockables":"ඔබ අගුලු දැමීමට උත්සාහ කරන්නේ කුමක්ද?...? අගුළු දැමීමේ ලැයිස්තුව සඳහා /locktypes උත්සාහ කරන්න",
+    "I'm not an administrator, or haven't got delete rights.":"මම පරිපාලකයෙක් නොවේ, නැතහොත් මකාදැමීමේ අයිතියක් නොමැත.",
     "Unlocked {} for everyone!": "{} හැමෝටම Unlock කරා!",
-    "What are you trying to unlock...? Try /locktypes for the list of lockables":
-        "මොනවද unlock කරන්න හොයන්නෙ...? ගුළු දැමීමේ ලැයිස්තුව සඳහා /locktypes උත්සාහ කරන්න",
+    "What are you trying to unlock...? Try /locktypes for the list of lockables":"මොනවද unlock කරන්න හොයන්නෙ...? ගුළු දැමීමේ ලැයිස්තුව සඳහා /locktypes උත්සාහ කරන්න",
     "What are you trying to unlock...?": "මොනවද unlock කරන්න හොයන්නෙ...?",
-    "I see a bot, and I've been told to stop them joining... but I'm not admin!":
-        "මට බොට් එකක් පෙනේ, ඔවුන් මට සම්බන්ධ වීම නවත්වන ලෙස මට පවසා ඇත ... නමුත් මම පරිපාලක නොවේ!",
-    "Only admins are allowed to add bots to this chat! Get outta here.":
-        "ඇඩ්මින්ලට විත්‍රයි බොට්ල දාන්න දෙන්නෙ.. පල යන්න.",
+    "I see a bot, and I've been told to stop them joining... but I'm not admin!":"මට බොට් එකක් පෙනේ, ඔවුන් මට සම්බන්ධ වීම නවත්වන ලෙස මට පවසා ඇත ... නමුත් මම පරිපාලක නොවේ!",
+    "Only admins are allowed to add bots to this chat! Get outta here.":"ඇඩ්මින්ලට විත්‍රයි බොට්ල දාන්න දෙන්නෙ.. පල යන්න.",
     "There are no current locks in *{}*.": "මොනවත් *{}* එකේ ලොක් කරල නෑ.",
     "These are the locks in *{}*:": "මේ රෙද්දවල් ටික *{}* එකේ ලොක්ක්:",
     "this chat": "this chat",
@@ -442,50 +420,39 @@ you're interested in.""",
     "No log channel has been set yet!": "No log channel has been set yet!",
 
 #Users
-    "I've seen them in <code>{}</code> chats in total.":
-        "මන් මූව දැක්කා චැට් <code>{}</code> කදි.",
-    "I've seen them in... Wow. Are they stalking me? They're in all the same places I am... oh. It's me.":
-        "මම ඔවුන්ව දැකලා තියෙනවා ... වාව්. ඔවුන් මට පයින් ගසනවාද? ඔවුන් එකම තැනක මම ... ඔහ්. ඒ මමයි.",
+    "I've seen them in <code>{}</code> chats in total.":"මන් මූව දැක්කා චැට් <code>{}</code> කදි.",
+    "I've seen them in... Wow. Are they stalking me? They're in all the same places I am... oh. It's me.":"මම ඔවුන්ව දැකලා තියෙනවා ... වාව්. ඔවුන් මට පයින් ගසනවාද? ඔවුන් එකම තැනක මම ... ඔහ්. ඒ මමයි.",
 
 #Msg_deleting
-    "Cannot delete all messages. The messages may be too old, I might not have delete rights, or this might not be a supergroup.":
-        "සියලුම පණිවිඩ මකා දැමිය නොහැක. පණිවිඩ ඉතා පැරණි විය හැකිය, මට මකාදැමීමේ අයිතිවාසිකම් නොතිබිය හැකිය, නැතහොත් මෙය සුපිරි කණ්ඩායමක් නොවිය හැකිය.",
-    "Purge complete.": "Purge complete.",
-    "Reply to a message to select where to start purging from.":
-        "පිරිසිදු කිරීම ආරම්භ කළ යුත්තේ කොතැනින්ද යන්න තේරීමට පණිවිඩයකට පිළිතුරු දෙන්න.",
+    "Cannot delete all messages. The messages may be too old, I might not have delete rights, or this might not be a supergroup.":"සියලුම පණිවිඩ මකා දැමිය නොහැක. පණිවිඩ ඉතා පැරණි විය හැකිය, මට මකාදැමීමේ අයිතිවාසිකම් නොතිබිය හැකිය, නැතහොත් මෙය සුපිරි කණ්ඩායමක් නොවිය හැකිය.",
+    "Purge complete.": "මකා දැමීම සාර්ථකයි",
+    "Reply to a message to select where to start purging from.":"පිරිසිදු කිරීම ආරම්භ කළ යුත්තේ කොතැනින්ද යන්න තේරීමට පණිවිඩයකට පිළිතුරු දෙන්න.",
     "Whadya want to delete?": "මොනෞත්තක්ද ඩිලීට් කරන්න ඕන?",
 
 #Muting
-    "You'll need to either give me a username to mute, or reply to someone to be muted.":
-        "නිශ්ශබ්ද කිරීම සඳහා ඔබට පරිශීලක නාමයක් ලබා දීමට හෝ නිශ්ශබ්ද කිරීමට යමෙකුට පිළිතුරු දීමට ඔබට අවශ්‍ය වනු ඇත.",
+    "You'll need to either give me a username to mute, or reply to someone to be muted.":"නිශ්ශබ්ද කිරීම සඳහා ඔබට පරිශීලක නාමයක් ලබා දීමට හෝ නිශ්ශබ්ද කිරීමට යමෙකුට පිළිතුරු දීමට ඔබට අවශ්‍ය වනු ඇත.",
     "I'm not muting myself!": "මම මාවම මියුට් කරගන්නෙ නෑ",
     "Afraid I can't stop an admin from talking!": "මට පරිපාලකයෙකු කතා කිරීම නතර කළ නොහැක!",
-    "You'll need to either give me a username to unmute, or reply to someone to be unmuted.":
-        "එක්කෝ ඔබට නිශ්ශබ්ද කිරීමට පරිශීලක නාමයක් ලබා දිය යුතුය, නැතහොත් නිශ්ශබ්ද වීමට යමෙකුට පිළිතුරු දෙන්න.",
+    "You'll need to either give me a username to unmute, or reply to someone to be unmuted.":"එක්කෝ ඔබට නිශ්ශබ්ද කිරීමට පරිශීලක නාමයක් ලබා දිය යුතුය, නැතහොත් නිශ්ශබ්ද වීමට යමෙකුට පිළිතුරු දෙන්න.",
     "This user already has the right to speak in {}.": "මේ යකාට දැනටම කතා කරන්න අයිතිය තියනව {}.",
     "Yep, {} can start talking again in {}!": "ඔයේ!! {} ආපහු කතා කරන්න පටන් ගනින් {}!",
-    "This user isn't even in the chat, unmuting them won't make them talk more than they already do!":
-        "මෙම පරිශීලකයා කතාබස්වල පවා නොසිටින අතර, ඒවා නිශ්ශබ්ද කිරීමෙන් ඔවුන් දැනටමත් කතා කරනවාට වඩා කතා කිරීමට නොහැකි වනු ඇත!",
+    "This user isn't even in the chat, unmuting them won't make them talk more than they already do!":"මෙම පරිශීලකයා කතාබස්වල පවා නොසිටින අතර, ඒවා නිශ්ශබ්ද කිරීමෙන් ඔවුන් දැනටමත් කතා කරනවාට වඩා කතා කිරීමට නොහැකි වනු ඇත!",
     "I really wish I could mute admins...": "මට හිතෙනව ඇඩ්මින්ල මියුට් කරන්න් තිබ්බනම් කියල!! ඒත් බෑ",
     "I'm not gonna MUTE myself, are you crazy?" : "මම මාවම මියුට් කරගන්නෙ නෑ.. තොට පිස්සුද???",
-    "You haven't specified a time to mute this user for!":
-        "මෙම පරිශීලකයා නිශ්ශබ්ද කිරීමට ඔබ කාලයක් නියම කර නැත!",
+    "You haven't specified a time to mute this user for!":"මෙම පරිශීලකයා නිශ්ශබ්ද කිරීමට ඔබ කාලයක් නියම කර නැත!",
     "Muted for {} in {}!": "{} මාලෙකට {} හි මියුටඩ්!",
     "This user is already muted in {}!": "මූ දැනටම මියුටඩ් {}!",
     "Well damn, I can't mute that user.": "රෙද්ද!! මට ඌව මියුට් කරන්න බෑ",
 
-    "You'll need to either give me a username to restrict, or reply to someone to be restricted.":
-        "ඔබට සීමා කිරීමට පරිශීලක නාමයක් ලබා දීමට හෝ සීමා කිරීමට යමෙකුට පිළිතුරු දීමට ඔබට අවශ්‍ය වනු ඇත.",
+    "You'll need to either give me a username to restrict, or reply to someone to be restricted.":"ඔබට සීමා කිරීමට පරිශීලක නාමයක් ලබා දීමට හෝ සීමා කිරීමට යමෙකුට පිළිතුරු දීමට ඔබට අවශ්‍ය වනු ඇත.",
     "I'm not restricting myself!": "මම මාවම සීමා කරන්නේ නැහැ!",
     "Afraid I can't restrict admins!": "මට පරිපාලකයින් සීමා කළ නොහැකියි",
     "{} is restricted from sending media in {}!": "{} ට මීඩියා එවීම තහනම් {}!තුල",
     "This user is already restricted in {}!": "මේ හාදයා දැනටම රෙස්ට්‍රික්ටඩ් {}!තුල",
     "This user isn't in the {}!": "Tමේ යකා {}! තුල නෑ",
 
-    "You'll need to either give me a username to unrestrict, or reply to someone to be unrestricted.":
-        "ඔබට එක්කෝ මට බාධාවකින් තොරව පරිශීලක නාමයක් ලබා දිය යුතුය, නැතහොත් සීමාවකින් තොරව යමෙකුට පිළිතුරු දෙන්න.",
-    "This user already has the rights to send anything in {}.": 
-        "ඕනෑම දෙයක් යැවීමට මෙම පරිශීලකයාට දැනටමත් අයිතියක් ඇත {} තුල",
+    "You'll need to either give me a username to unrestrict, or reply to someone to be unrestricted.":"ඔබට එක්කෝ මට බාධාවකින් තොරව පරිශීලක නාමයක් ලබා දිය යුතුය, නැතහොත් සීමාවකින් තොරව යමෙකුට පිළිතුරු දෙන්න.",
+    "This user already has the rights to send anything in {}.": "ඕනෑම දෙයක් යැවීමට මෙම පරිශීලකයාට දැනටමත් අයිතියක් ඇත {} තුල",
     "Yep, {} can send media again in {}!": "ඔයේ!! {} ආපහු මීඩියා එවන්න පුලාම් {}!",
     "This user isn't even in the chat, unrestricting them won't make them send anything than they already do!":
         "මෙම පරිශීලකයා කතාබස්වල පවා නොසිටින අතර, ඔවුන්ව සීමා කිරීම මඟින් ඔවුන් දැනටමත් කර ඇති දේට වඩා කිසිවක් යැවීමට නොහැකි වනු ඇත!",
@@ -717,16 +684,57 @@ Command:
 """,
 
 
+"Welcomes/Goodbyes_help": """
+සුභ පැතුම් මොඩියුලය සමඟ ඔබේ සාමාජිකයින්ට උණුසුම් පිළිගැනීමක් ලබා දෙන්න! නැත්නම් කනගාටුදායක සමුගැනීමක් ... රඳා පවතී!
 
+Available commands are:
+ - /welcome <on/off/yes/no>: පිළිගැනීමේ පණිවිඩ සක්‍රීය / අක්‍රීය කරයි. විකල්පයක් ලබා දී නොමැති නම්, වත්මන් පිළිගැනීමේ පණිවිඩය සහ පිළිගැනීමේ සැකසුම් නැවත ලබා දේ. 
+ - /goodbye <on/off/yes/no>: සමුගැනීමේ පණිවිඩ සක්‍රීය / අක්‍රීය කරයි. විකල්පයක් ලබා නොදුනහොත්, වර්තමාන සමුගැනීමේ පණිවිඩය සහ සමුගැනීමේ සැකසුම් නැවත ලබා දේ.
+ - /setwelcome <message>: ඔබගේ නව පිළිගැනීමේ පණිවිඩය සකසයි! සලකුණු කිරීම සහ බොත්තම් මෙන්ම පිරවුම් ද සහය දක්වයි.
+ - /resetwelcome: ඔබගේ පිළිගැනීමේ පණිවිඩය පෙරනිමියට යලි සකසයි; ඔබ විසින් කරන ලද වෙනස්කම් මකා දැමීම.
+ - /setgoodbye <message>: ඔබගේ නව සමුගැනීමේ පණිවිඩය සකසයි! සලකුණු කිරීම සහ බොත්තම් මෙන්ම පිරවුම් ද සහය දක්වයි.
+ - /resetgoodbye: ඔබගේ සමුගැනීමේ පණිවිඩය පෙරනිමියට යලි සකසයි; ඔබ විසින් කරන ලද වෙනස්කම් මකා දැමීම.
+ - /cleanwelcome <on/off/yes/no>: පැරණි පිළිගැනීමේ පණිවිඩ මකා දමයි; නව පුද්ගලයෙකු සම්බන්ධ වූ විට, පැරණි පණිවිඩය මැකෙනු ඇත.
+ - /welcomemute <on/off/yes/no>: සම්බන්ධ වන සියලුම පරිශීලකයින් නිශ්ශබ්ද වන්න; පිළිගැනීමේ පණිවිඩයට බොත්තමක් එක් කර ඔවුන් නිශ්ශබ්ද කිරීමට. මෙයින් ඔප්පු වන්නේ ඔවුන් බොට් නොවන බවයි!
+ - /welcomemutetime <Xw/d/h/m>: යම් වේලාවකට පසු පරිශීලකයෙකු පිළිගැනීමේ පණිවිඩයේ “Unmute” බොත්තම එබුවේ නැත්නම්, මෙම කාල පරිච්ඡේදයෙන් පසුව ඔවුන් ස්වයංක්‍රීයව නිශ්ශබ්ද වනු ඇත.
+සටහන: නිශ්ශබ්ද කාලය සදහටම නැවත සැකසීමට ඔබට අවශ්‍ය නම්, use /welcomemutetime 0m. 0 == eternal!
+ - /setmutetext <new text>: Welcome Mutes සක්‍රීය කිරීමෙන් ලබාගත් ""click here to prove you're human"" බොත්තම අභිරුචිකරණය කරන්න.
+ - /resetmutetext: නිශ්ශබ්දතා බොත්තම සුපුරුදු පෙළට යලි සකසයි.
+
+Read /markdownhelp to learn about formatting your text and mentioning new users when the join!
+
+Fillings:
+සඳහන් කළ පරිදි, පරිශීලක හෝ චැට් තොරතුරු සමඟ ඔබේ පිළිගැනීමේ පණිවිඩය පුරවා ගැනීමට ඔබට සමහර ටැග් භාවිතා කළ හැකිය; ඒ තියෙන්නේ:
+{first}: පරිශීලකයාගේ මුල් නම.
+{last}: පරිශීලකයාගේ අවසාන නම.
+{fullname}: පරිශීලකයාගේ සම්පූර්ණ නම.
+{username}: පරිශීලකයාගේ පරිශීලක නාමය; කිසිවක් නොමැති නම්, පරිශීලකයා සඳහන් කරයි.
+{mention}:පරිශීලකයාගේ මුල් නම භාවිතා කරමින් සඳහන් කරයි.
+{id}: පරිශීලකයාගේ හැඳුනුම්පත.
+{chatname}: චැට්ගේ නම.
+
+පිරවුම් භාවිතා කරන්නේ කෙසේද යන්න පිළිබඳ උදාහරණයක් නම්,
+/setwelcome Hey there {first}! Welcome to {chatname}.
+
+You can enable/disable welcome messages as such:
+/welcome off
+
+ඔබට රූපයක්, gif, හෝ ස්ටිකර් හෝ වෙනත් දත්ත සුරැකීමට අවශ්‍ය නම්, පහත සඳහන් දේ කරන්න:
+/setwelcome ස්ටිකරයකට හෝ ඔබ කැමති ඕනෑම දත්තයකට පිළිතුරු දෙන අතරතුර. නව පරිශීලකයින් පිළිගැනීම සඳහා මෙම දත්ත දැන් යවනු ලැබේ.
+
+Tip: use /welcome noformat to retrieve the unformatted welcome message.
+This will retrieve the welcome message and send it without formatting it; getting you the raw markdown, allowing you to make easy edits.
+This also works with /goodbye.
+""",
 
 
 #GDPR
-"send-gdpr": """Data pribadi Kamu telah dihapus.\n\nPerhatikan bahwa ini tidak akan membatalkan blokir \
-kamu dari obrolan apa pun, karena itu adalah data telegram, bukan data Bot.
-Flooding, warns, dan gbans tetap tersimpan, seperti pada \
+"send-gdpr": """Your personal data has been deleted.\n\nNote that this will not unban \
+you from any chats, as that is telegram data, not YanaBot data.
+Flooding, warns, and gbans are also preserved, as of \
 [this](https://ico.org.uk/for-organisations/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-erasure/), "
-yang dengan jelas menyatakan bahwa hak untuk dihapus tidak berlaku \
-\"untuk pelaksanaan tugas yang dilakukan untuk kepentingan umum\", seperti halnya \
-kasus untuk potongan data tersebut."""
+which clearly states that the right to erasure does not apply \
+\"for the performance of a task carried out in the public interest\", as is \
+the case for the aforementioned pieces of data."""
 
 }
