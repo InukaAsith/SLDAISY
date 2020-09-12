@@ -32,7 +32,7 @@ Developed by [InukaASiTH](https://t.me/InukaASiTH)
 Special thanks to [ImJanindu](t.me/ImJanindu) and [NavodPRO](t.me/NavodPRO)
 
 Project [𝗚𝗿𝗼𝘂𝗽 𝗛𝗲𝗹𝗽 𝗠𝗮𝗻𝗮𝗴𝗲𝗿™](https://t.me/grouphelpmanagerbot) is Owned by [JASON ENT®](t.me/InfinityJE).
-Unauthorized development and distribution is strictly prohibited!!
+Unauthorized duplication and distribution are strictly prohibited!!
 
 The support group chat is at @InfinityJE
 
