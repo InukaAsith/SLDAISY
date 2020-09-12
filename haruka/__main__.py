@@ -21,6 +21,8 @@ from haruka.modules.translations.strings import tld, tld_help
 from haruka.modules.connection import connected
 
 PM_START = """Hi {}, my name is {}! 
+
+
 I am a super powerful group management bot with some fun extras ;)
 
 You can find the list of available commands with /help.
