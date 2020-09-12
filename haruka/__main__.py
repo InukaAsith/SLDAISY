@@ -25,14 +25,16 @@ I am a super powerful group management bot with some fun extras ;)
 
 You can find the list of available commands with /help.
 
-Developed by [InukaASiTH](htps://t.me/InukaASiTH)
-
-[JASON ENT®](t.me/InfinityJE)
+Developed by [InukaASiTH](https://t.me/InukaASiTH)
 
 Special thanks to [ImJanindu](t.me/ImJanindu) and [NavodPRO](t.me/NavodPRO)
 
+Project [𝗚𝗿𝗼𝘂𝗽 𝗛𝗲𝗹𝗽 𝗠𝗮𝗻𝗮𝗴𝗲𝗿™](https://t.me/grouphelpmanagerbot) is Owned by [JASON ENT®](t.me/InfinityJE).
+Unauthorized development and distribution is strictly prohibited!!
+
 The support group chat is at @InfinityJE
 
+[- 𝗚𝗿𝗼𝘂𝗽 𝗛𝗲𝗹𝗽 𝗠𝗮𝗻𝗮𝗴𝗲𝗿™ -](https://t.me/grouphelpmanagerbot)
 ©2020 by [JASON ENT®](t.me/InfinityJE). All Rights Reserved.
 """
 
@@ -49,7 +51,7 @@ CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
 GDPR = []
-
+DAISY_IMG ="https://telegra.ph/file/cefd6a5c17aac3a4cb7b0.jpg"
 for module_name in ALL_MODULES:
     imported_module = importlib.import_module("haruka.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
