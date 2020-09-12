@@ -659,30 +659,6 @@ This would match bit.ly/abc, but not bit.ly/abcd.""",
 
 
 
-"Federations_help": """අහ්, කණ්ඩායම් කළමනාකරණය. අයාචිත තැපැල්කරු ඔබේ කණ්ඩායමට ඇතුළු වන තෙක් සියල්ල විනෝදජනක වන අතර ඔබට එය අවහිර කළ යුතුය. එවිට ඔබ තව තවත් තහනම් කිරීම ආරම්භ කළ යුතු අතර තවත් බොහෝ දේ රිදෙනවා.
-නමුත් ඔබට බොහෝ කණ්ඩායම් ඇති අතර, මෙම අයාචිත තැපැල්කරු ඔබගේ කණ්ඩායමක සිටීම ඔබට අවශ්‍ය නැත - ඔබට ගනුදෙනු කළ හැක්කේ කෙසේද? ඔබගේ සියලු කණ්ඩායම් තුළ ඔබ එය අතින් අවහිර කළ යුතුද?
-තවදුරටත් නැත! සම්මේලනය සමඟ, ඔබට අනෙක් සියලුම කතාබස් සමඟ එක් චැට් අතිච්ඡාදනයකින් තහනමක් කළ හැකිය.
-ඔබට පරිපාලක සම්මේලන පවා නම් කළ හැකිය, එබැවින් ඔබේ විශ්වාසදායක පරිපාලකයාට ඔබට ආරක්ෂා කිරීමට අවශ්‍ය සියලුම කතාබස් තහනම් කළ හැකිය.
-Still the experimental stage, to make Federation can only be done by my maker
-Command:
- - /newfed <fedname>: create a new Federation with the name given. Users are only allowed to have one Federation. This method can also be used to rename the Federation. (max. 64 characters)
- - /delfed: delete your Federation, and any information related to it. Will not cancel blocked users.
- - /fedinfo <FedID>: information about the specified Federation.
- - /joinfed <FedID>: join the current chat to the Federation. Only chat owners can do this. Every chat can only be in one Federation.
- - /leavefed <FedID>: leave the Federation given. Only chat owners can do this.
- - /fpromote <user>: promote Users to give fed admin. Fed owner only.
- - /fdemote <user>: drops the User from the admin Federation to a normal User. Fed owner only.
- - /fban <user>: ban users from all federations where this chat takes place, and executors have control over.
- - /unfban <user>: cancel User from all federations where this chat takes place, and that the executor has control over.
- - /setfrules: Arrange Federation rules.
- - /frules: See Federation regulations.
- - /chatfed: See the Federation in the current chat.
- - /fedadmins: Show Federation admin.
- - /fbanlist: Displays all users who are victimized at the Federation at this time.
- - /fedchats: Get all the chats that are connected in the Federation.
- - /importfbans: Reply to the Federation backup message file to import the banned list to the Federation now.
-""",
-
 
 "Welcomes/Goodbyes_help": """
 සුභ පැතුම් මොඩියුලය සමඟ ඔබේ සාමාජිකයින්ට උණුසුම් පිළිගැනීමක් ලබා දෙන්න! නැත්නම් කනගාටුදායක සමුගැනීමක් ... රඳා පවතී!
@@ -726,6 +702,30 @@ Tip: use /welcome noformat to retrieve the unformatted welcome message.
 This will retrieve the welcome message and send it without formatting it; getting you the raw markdown, allowing you to make easy edits.
 This also works with /goodbye.
 """,
+"Federations_help": """අහ්, කණ්ඩායම් කළමනාකරණය. අයාචිත තැපැල්කරු ඔබේ කණ්ඩායමට ඇතුළු වන තෙක් සියල්ල විනෝදජනක වන අතර ඔබට එය අවහිර කළ යුතුය. එවිට ඔබ තව තවත් තහනම් කිරීම ආරම්භ කළ යුතු අතර තවත් බොහෝ දේ රිදෙනවා.
+නමුත් ඔබට බොහෝ කණ්ඩායම් ඇති අතර, මෙම අයාචිත තැපැල්කරු ඔබගේ කණ්ඩායමක සිටීම ඔබට අවශ්‍ය නැත - ඔබට ගනුදෙනු කළ හැක්කේ කෙසේද? ඔබගේ සියලු කණ්ඩායම් තුළ ඔබ එය අතින් අවහිර කළ යුතුද?
+තවදුරටත් නැත! සම්මේලනය සමඟ, ඔබට අනෙක් සියලුම කතාබස් සමඟ එක් චැට් අතිච්ඡාදනයකින් තහනමක් කළ හැකිය.
+ඔබට පරිපාලක සම්මේලන පවා නම් කළ හැකිය, එබැවින් ඔබේ විශ්වාසදායක පරිපාලකයාට ඔබට ආරක්ෂා කිරීමට අවශ්‍ය සියලුම කතාබස් තහනම් කළ හැකිය.
+Still the experimental stage, to make Federation can only be done by my maker
+Command:
+ - /newfed <fedname>: create a new Federation with the name given. Users are only allowed to have one Federation. This method can also be used to rename the Federation. (max. 64 characters)
+ - /delfed: delete your Federation, and any information related to it. Will not cancel blocked users.
+ - /fedinfo <FedID>: information about the specified Federation.
+ - /joinfed <FedID>: join the current chat to the Federation. Only chat owners can do this. Every chat can only be in one Federation.
+ - /leavefed <FedID>: leave the Federation given. Only chat owners can do this.
+ - /fpromote <user>: promote Users to give fed admin. Fed owner only.
+ - /fdemote <user>: drops the User from the admin Federation to a normal User. Fed owner only.
+ - /fban <user>: ban users from all federations where this chat takes place, and executors have control over.
+ - /unfban <user>: cancel User from all federations where this chat takes place, and that the executor has control over.
+ - /setfrules: Arrange Federation rules.
+ - /frules: See Federation regulations.
+ - /chatfed: See the Federation in the current chat.
+ - /fedadmins: Show Federation admin.
+ - /fbanlist: Displays all users who are victimized at the Federation at this time.
+ - /fedchats: Get all the chats that are connected in the Federation.
+ - /importfbans: Reply to the Federation backup message file to import the banned list to the Federation now.
+""",
+
 
 
 #GDPR
