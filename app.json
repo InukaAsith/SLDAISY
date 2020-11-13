@@ -9,7 +9,7 @@
     "manager",
     "3"
   ],
-  "repository": "hhttps://github.com/xditya/GroupManager",
+  "repository": "hhttps://github.com/InukaASiTH/SLDAISY",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables",
@@ -21,11 +21,11 @@
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "719195224"
+      "value": "1141839926"
     },
     "OWNER_USERNAME": {
       "description": "Your username",
-      "value": "xditya"
+      "value": "InukaASiTH"
     },
   
     "URL": {
@@ -38,15 +38,15 @@
     },
     "SUDO_USERS": {
       "description": "A space separated list of user_ids which should be considered sudo users",
-      "value": "254318997 683538773 719195224 570400686 466337795"
+      "value": "1141839926"
     },
     "SUPPORT_USERS": {
       "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
-      "value": "254318997 683538773 570400686 719195224 466337795"
+      "value": "1141839926"
     },
     "WHITELIST_USERS": {
       "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
-      "value": "254318997 683538773 570400686 466337795"
+      "value": "1141839926"
     },
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations.",
@@ -70,7 +70,7 @@
     },
     "BAN_STICKER": {
       "description": "Which sticker to use when banning people. Use https://telegram.dog/ShowJsonBot to get the file_id",
-      "value": "CAADBQADNwEAAjZzSxRZAc49mnFSSAI"
+      "value": "CAACAgUAAx0CTv65QgABA2f-X64i6Tus3J6yIu_3_-YWDvukUncAAwEAAuEYSFWMLn6g-zz4Dh4E"
     }
   },
   "addons": [
